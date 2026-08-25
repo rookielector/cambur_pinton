@@ -3,9 +3,11 @@ import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_strings.dart';
 import '../../data/repositories/harmony_repository_impl.dart';
 import '../../domain/repositories/harmony_repository.dart';
+import '../providers/chord_catalog_provider.dart';
 import '../providers/chord_identifier_provider.dart';
 import '../providers/harmony_search_provider.dart';
 import 'tab_chord_identifier_screen.dart';
+import 'tab_chords_screen.dart';
 import 'tab_credits_screen.dart';
 import 'tab_harmony_search_screen.dart';
 
@@ -19,6 +21,7 @@ class MainScaffoldScreen extends StatefulWidget {
 class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
   late final HarmonyRepository _repository;
   late final HarmonySearchProvider _harmonyProvider;
+  late final ChordCatalogProvider _chordCatalogProvider;
   late final ChordIdentifierProvider _identifierProvider;
 
   bool _isLoading = true;
@@ -29,6 +32,7 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
     super.initState();
     _repository = HarmonyRepositoryImpl();
     _harmonyProvider = HarmonySearchProvider(_repository);
+    _chordCatalogProvider = ChordCatalogProvider(_repository);
     _identifierProvider = ChordIdentifierProvider(_repository);
 
     _initData();
@@ -37,6 +41,7 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
   Future<void> _initData() async {
     await _repository.initialize();
     _harmonyProvider.init();
+    _chordCatalogProvider.init();
     setState(() {
       _isLoading = false;
     });
@@ -66,7 +71,11 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
     final isWide = MediaQuery.of(context).size.width > 700;
 
     return ListenableBuilder(
-      listenable: Listenable.merge([_harmonyProvider, _identifierProvider]),
+      listenable: Listenable.merge([
+        _harmonyProvider,
+        _chordCatalogProvider,
+        _identifierProvider,
+      ]),
       builder: (context, _) {
         return Container(
           decoration: const BoxDecoration(
@@ -76,7 +85,9 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
             backgroundColor: Colors.transparent,
             appBar: isWide
                 ? AppBar(
-                    backgroundColor: AppColors.backgroundDark.withValues(alpha: 0.85),
+                    backgroundColor: AppColors.backgroundDark.withValues(
+                      alpha: 0.85,
+                    ),
                     elevation: 0,
                     centerTitle: true,
                     title: Row(
@@ -88,17 +99,21 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                           height: 32,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            border: Border.all(color: AppColors.primaryAmber, width: 1.2),
+                            border: Border.all(
+                              color: AppColors.primaryAmber,
+                              width: 1.2,
+                            ),
                           ),
                           child: ClipOval(
                             child: Image.asset(
                               'assets/images/app_logo.png',
                               fit: BoxFit.cover,
-                              errorBuilder: (context, error, stackTrace) => const Icon(
-                                Icons.music_note,
-                                color: AppColors.primaryAmber,
-                                size: 18,
-                              ),
+                              errorBuilder: (context, error, stackTrace) =>
+                                  const Icon(
+                                    Icons.music_note,
+                                    color: AppColors.primaryAmber,
+                                    size: 18,
+                                  ),
                             ),
                           ),
                         ),
@@ -140,18 +155,28 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                             _currentTabIndex = index;
                           });
                         },
-                        selectedIconTheme: const IconThemeData(color: AppColors.primaryAmber),
-                        unselectedIconTheme: const IconThemeData(color: AppColors.textMuted),
+                        selectedIconTheme: const IconThemeData(
+                          color: AppColors.primaryAmber,
+                        ),
+                        unselectedIconTheme: const IconThemeData(
+                          color: AppColors.textMuted,
+                        ),
                         selectedLabelTextStyle: const TextStyle(
                           color: AppColors.primaryAmber,
                           fontWeight: FontWeight.bold,
                         ),
-                        unselectedLabelTextStyle: const TextStyle(color: AppColors.textMuted),
+                        unselectedLabelTextStyle: const TextStyle(
+                          color: AppColors.textMuted,
+                        ),
                         labelType: NavigationRailLabelType.all,
                         destinations: const [
                           NavigationRailDestination(
                             icon: Icon(Icons.grid_on),
                             label: Text(AppStrings.tabHarmonySearch),
+                          ),
+                          NavigationRailDestination(
+                            icon: Icon(Icons.library_music),
+                            label: Text(AppStrings.tabChords),
                           ),
                           NavigationRailDestination(
                             icon: Icon(Icons.touch_app),
@@ -163,29 +188,39 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                           ),
                         ],
                       ),
-                      const VerticalDivider(thickness: 1, width: 1, color: AppColors.cardBorder),
+                      const VerticalDivider(
+                        thickness: 1,
+                        width: 1,
+                        color: AppColors.cardBorder,
+                      ),
                       Expanded(
                         child: IndexedStack(
                           index: _currentTabIndex,
                           children: [
                             TabHarmonySearchScreen(provider: _harmonyProvider),
-                            TabChordIdentifierScreen(provider: _identifierProvider),
+                            TabChordsScreen(provider: _chordCatalogProvider),
+                            TabChordIdentifierScreen(
+                              provider: _identifierProvider,
+                            ),
                             const TabCreditsScreen(),
                           ],
                         ),
                       ),
                     ],
                   )
-                : (_currentTabIndex == 2
-                    ? const TabCreditsScreen()
-                    : IndexedStack(
-                        index: _currentTabIndex,
-                        children: [
-                          TabHarmonySearchScreen(provider: _harmonyProvider),
-                          TabChordIdentifierScreen(provider: _identifierProvider),
-                          const TabCreditsScreen(),
-                        ],
-                      )),
+                : (_currentTabIndex == 3
+                      ? const TabCreditsScreen()
+                      : IndexedStack(
+                          index: _currentTabIndex,
+                          children: [
+                            TabHarmonySearchScreen(provider: _harmonyProvider),
+                            TabChordsScreen(provider: _chordCatalogProvider),
+                            TabChordIdentifierScreen(
+                              provider: _identifierProvider,
+                            ),
+                            const TabCreditsScreen(),
+                          ],
+                        )),
             bottomNavigationBar: isWide
                 ? null
                 : BottomNavigationBar(
@@ -202,6 +237,10 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                       BottomNavigationBarItem(
                         icon: Icon(Icons.grid_on),
                         label: AppStrings.tabHarmonySearch,
+                      ),
+                      BottomNavigationBarItem(
+                        icon: Icon(Icons.library_music),
+                        label: AppStrings.tabChords,
                       ),
                       BottomNavigationBarItem(
                         icon: Icon(Icons.touch_app),

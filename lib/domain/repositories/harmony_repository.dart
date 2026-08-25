@@ -3,6 +3,7 @@ import '../models/harmonic_key_model.dart';
 
 abstract class HarmonyRepository {
   Future<void> initialize();
+  List<ChordModel> getAllChords();
   List<HarmonicKeyModel> getKeys();
   List<HarmonicKeyModel> getMajorKeys();
   List<HarmonicKeyModel> getMinorKeys();

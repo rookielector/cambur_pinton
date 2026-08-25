@@ -14,7 +14,9 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
   Future<void> initialize() async {
     if (_isInitialized) return;
 
-    final chordsRaw = await AssetLoaderService.loadJsonString('assets/data/chords.json');
+    final chordsRaw = await AssetLoaderService.loadJsonString(
+      'assets/data/chords.json',
+    );
     final List<dynamic> chordsJson = jsonDecode(chordsRaw);
 
     for (final item in chordsJson) {
@@ -23,7 +25,9 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
       _chordsByFrets[chord.fretsKey] = chord;
     }
 
-    final harmoniesRaw = await AssetLoaderService.loadJsonString('assets/data/harmonies.json');
+    final harmoniesRaw = await AssetLoaderService.loadJsonString(
+      'assets/data/harmonies.json',
+    );
     final List<dynamic> harmoniesJson = jsonDecode(harmoniesRaw);
 
     for (final item in harmoniesJson) {
@@ -33,6 +37,9 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
 
     _isInitialized = true;
   }
+
+  @override
+  List<ChordModel> getAllChords() => List.unmodifiable(_chordsById.values);
 
   @override
   List<HarmonicKeyModel> getKeys() => List.unmodifiable(_keys);
@@ -64,11 +71,13 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
     for (final key in _keys) {
       for (final deg in key.degrees) {
         if (deg.chordId == targetChord.id) {
-          matches.add(HarmonicRoleMatch(
-            key: key,
-            degree: deg,
-            chordDisplayTitle: targetChord.displayTitle,
-          ));
+          matches.add(
+            HarmonicRoleMatch(
+              key: key,
+              degree: deg,
+              chordDisplayTitle: targetChord.displayTitle,
+            ),
+          );
         }
       }
     }
