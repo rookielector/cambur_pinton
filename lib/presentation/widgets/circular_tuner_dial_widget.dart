@@ -200,6 +200,7 @@ class _CircularTunerDialWidgetState extends State<CircularTunerDialWidget>
                       horizontal: 14,
                       vertical: 5,
                     ),
+                    constraints: const BoxConstraints(maxWidth: 210),
                     decoration: BoxDecoration(
                       color: statusColor.withValues(alpha: 0.18),
                       borderRadius: BorderRadius.circular(16),
@@ -215,7 +216,8 @@ class _CircularTunerDialWidgetState extends State<CircularTunerDialWidget>
                       ],
                     ),
                     child: Row(
-                      mainAxisSize: MainAxisSize.min,
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           currentCents.abs() <= 4.0
@@ -227,13 +229,17 @@ class _CircularTunerDialWidgetState extends State<CircularTunerDialWidget>
                           size: 14,
                         ),
                         const SizedBox(width: 6),
-                        Text(
-                          statusText,
-                          style: TextStyle(
-                            color: statusColor,
-                            fontSize: 12,
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 0.5,
+                        Flexible(
+                          child: Text(
+                            statusText,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              color: statusColor,
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 0.5,
+                            ),
                           ),
                         ),
                       ],

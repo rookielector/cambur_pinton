@@ -44,25 +44,22 @@ class CuatroTunerGraphicWidget extends StatelessWidget {
         children: [
           // Section Title
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Row(
-                children: [
-                  Icon(
-                    Icons.tune,
-                    color: AppColors.primaryAmber,
-                    size: 18,
+              const Icon(
+                Icons.tune,
+                color: AppColors.primaryAmber,
+                size: 18,
+              ),
+              const SizedBox(width: 8),
+              const Expanded(
+                child: Text(
+                  'Seleccionar Cuerda a Afinar',
+                  style: TextStyle(
+                    color: AppColors.textPrimary,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
                   ),
-                  SizedBox(width: 8),
-                  Text(
-                    'Seleccionar Cuerda a Afinar',
-                    style: TextStyle(
-                      color: AppColors.textPrimary,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
+                ),
               ),
               if (onPlaySound != null)
                 IconButton(

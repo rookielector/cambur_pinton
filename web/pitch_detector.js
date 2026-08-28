@@ -48,7 +48,15 @@ window.cuatroPitchDetector = {
       const processFrame = () => {
         if (!this.isListening) return;
 
-        this.analyser.getFloat32Array(buffer);
+        if (this.analyser.getFloatTimeDomainData) {
+          this.analyser.getFloatTimeDomainData(buffer);
+        } else {
+          const byteBuf = new Uint8Array(this.analyser.fftSize);
+          this.analyser.getByteTimeDomainData(byteBuf);
+          for (let i = 0; i < byteBuf.length; i++) {
+            buffer[i] = (byteBuf[i] - 128) / 128.0;
+          }
+        }
 
         // 1. Calculate RMS volume to filter out silent background noise
         let sum = 0;

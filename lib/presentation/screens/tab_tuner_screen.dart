@@ -393,6 +393,7 @@ class _TabTunerScreenState extends State<TabTunerScreen> {
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Icon(
               icon,
@@ -429,12 +430,14 @@ class _TabTunerScreenState extends State<TabTunerScreen> {
                   size: 22,
                 ),
                 SizedBox(width: 10),
-                Text(
-                  'Instrucciones y Afinación Tradicional del Cuatro',
-                  style: TextStyle(
-                    color: AppColors.textPrimary,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16,
+                Expanded(
+                  child: Text(
+                    'Instrucciones y Afinación Tradicional del Cuatro',
+                    style: TextStyle(
+                      color: AppColors.textPrimary,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
               ],
