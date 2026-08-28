@@ -5,7 +5,19 @@ class AppStrings {
   static const String tabHarmonySearch = 'Armonía';
   static const String tabChords = 'Acordes';
   static const String tabChordIdentifier = 'Identificador';
+  static const String tabTuner = 'Afinador';
   static const String tabCredits = 'Créditos';
+
+  static const String tunerTitle = 'Afinador de Cuatro';
+  static const String tunerSubtitle = 'Afinación tradicional reentrante "Cambur Pintón" (La3 - Re4 - Fa#4 - Si3)';
+
+  static const List<String> stringNames = [
+    '4ª (La - A3)',
+    '3ª (Re - D4)',
+    '2ª (Fa# - F#4)',
+    '1ª (Si - B3)',
+  ];
+
 
   static const String selectKey = 'Seleccionar Tonalidad';
   static const String selectDegree = 'Grados Armónicos';
@@ -34,12 +46,7 @@ class AppStrings {
   static const String specialThanksDesc =
       'Maestro Cuatrista y Autor de los PDFs de Tonalidades Mayores Aplicadas al Cuatro y Tonalidades Menores Aplicadas al Cuatro';
 
-  static const List<String> stringNames = [
-    '4ª (La - A4)',
-    '3ª (Re - D4)',
-    '2ª (Fa# - F#4)',
-    '1ª (Si - B3)',
-  ];
+
   static const List<String> romanDegrees = [
     'I',
     'II',

@@ -10,6 +10,8 @@ import 'tab_chord_identifier_screen.dart';
 import 'tab_chords_screen.dart';
 import 'tab_credits_screen.dart';
 import 'tab_harmony_search_screen.dart';
+import 'tab_tuner_screen.dart';
+
 
 class MainScaffoldScreen extends StatefulWidget {
   const MainScaffoldScreen({super.key});
@@ -183,6 +185,10 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                             label: Text(AppStrings.tabChordIdentifier),
                           ),
                           NavigationRailDestination(
+                            icon: Icon(Icons.tune),
+                            label: Text(AppStrings.tabTuner),
+                          ),
+                          NavigationRailDestination(
                             icon: Icon(Icons.workspace_premium),
                             label: Text(AppStrings.tabCredits),
                           ),
@@ -202,13 +208,14 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                             TabChordIdentifierScreen(
                               provider: _identifierProvider,
                             ),
+                            const TabTunerScreen(),
                             const TabCreditsScreen(),
                           ],
                         ),
                       ),
                     ],
                   )
-                : (_currentTabIndex == 3
+                : (_currentTabIndex == 4
                       ? const TabCreditsScreen()
                       : IndexedStack(
                           index: _currentTabIndex,
@@ -218,6 +225,7 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                             TabChordIdentifierScreen(
                               provider: _identifierProvider,
                             ),
+                            const TabTunerScreen(),
                             const TabCreditsScreen(),
                           ],
                         )),
@@ -228,6 +236,7 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                     currentIndex: _currentTabIndex,
                     selectedItemColor: AppColors.primaryAmber,
                     unselectedItemColor: AppColors.textMuted,
+                    type: BottomNavigationBarType.fixed,
                     onTap: (index) {
                       setState(() {
                         _currentTabIndex = index;
@@ -245,6 +254,10 @@ class _MainScaffoldScreenState extends State<MainScaffoldScreen> {
                       BottomNavigationBarItem(
                         icon: Icon(Icons.touch_app),
                         label: AppStrings.tabChordIdentifier,
+                      ),
+                      BottomNavigationBarItem(
+                        icon: Icon(Icons.tune),
+                        label: AppStrings.tabTuner,
                       ),
                       BottomNavigationBarItem(
                         icon: Icon(Icons.workspace_premium),
