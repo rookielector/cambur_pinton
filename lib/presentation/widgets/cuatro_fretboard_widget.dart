@@ -13,7 +13,7 @@ class CuatroFretboardWidget extends StatelessWidget {
     required this.frets,
     this.isInteractive = false,
     this.onFretTapped,
-    this.maxFrets = 5,
+    this.maxFrets = 6,
   });
 
   @override
