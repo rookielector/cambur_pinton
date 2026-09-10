@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_strings.dart';
+import '../../core/constants/harmonic_mode_visuals.dart';
 import '../../domain/models/harmonic_key_model.dart';
 import '../providers/harmony_search_provider.dart';
 import '../widgets/cuatro_fretboard_widget.dart';
@@ -66,10 +67,10 @@ class TabHarmonySearchScreen extends StatelessWidget {
                         'assets/images/app_logo.png',
                         fit: BoxFit.cover,
                         errorBuilder: (context, error, stackTrace) => const Icon(
-                          Icons.music_note,
-                          color: AppColors.primaryAmber,
-                          size: 18,
-                        ),
+                              Icons.music_note,
+                              color: AppColors.primaryAmber,
+                              size: 18,
+                            ),
                       ),
                     ),
                   ),
@@ -100,143 +101,141 @@ class TabHarmonySearchScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-          // Header Dropdown: Key Selection
-          GlassCard(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  AppStrings.selectKey,
-                  style: TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                DropdownButtonHideUnderline(
-                  child: DropdownButton<HarmonicKeyModel>(
-                    value: selectedKey,
-                    isExpanded: true,
-                    dropdownColor: AppColors.backgroundCard,
-                    icon: const Icon(Icons.keyboard_arrow_down, color: AppColors.primaryAmber),
-                    items: provider.allKeys.map((key) {
-                      return DropdownMenuItem<HarmonicKeyModel>(
-                        value: key,
-                        child: Row(
-                          children: [
-                            Icon(
-                              key.mode == 'major' ? Icons.wb_sunny : Icons.nightlight_round,
-                              color: key.mode == 'major'
-                                  ? AppColors.primaryAmber
-                                  : AppColors.secondaryCopper,
-                              size: 18,
-                            ),
-                            const SizedBox(width: 10),
-                            Text(
-                              key.name,
-                              style: const TextStyle(
-                                color: AppColors.textPrimary,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16,
-                              ),
-                            ),
-                          ],
-                        ),
-                      );
-                    }).toList(),
-                    onChanged: (newKey) {
-                      if (newKey != null) provider.selectKey(newKey);
-                    },
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 12),
-
-          // Degree Selector Bar (I to VII)
-          DegreeSelectorBar(
-            selectedDegree: provider.selectedDegree,
-            onDegreeSelected: provider.selectDegree,
-          ),
-          const SizedBox(height: 16),
-
-          // Chord Display Card
-          if (chord != null) ...[
+            // Header Dropdown: Key Selection
             GlassCard(
-              borderColor: AppColors.primaryAmber,
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              chord.displayTitle,
-                              style: const TextStyle(
-                                color: AppColors.textPrimary,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
+                  const Text(
+                    AppStrings.selectKey,
+                    style: TextStyle(
+                      color: AppColors.textSecondary,
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  DropdownButtonHideUnderline(
+                    child: DropdownButton<HarmonicKeyModel>(
+                      value: selectedKey,
+                      isExpanded: true,
+                      dropdownColor: AppColors.backgroundCard,
+                    icon: const Icon(Icons.keyboard_arrow_down, color: AppColors.primaryAmber),
+                      items: provider.allKeys.map((key) {
+                        return DropdownMenuItem<HarmonicKeyModel>(
+                          value: key,
+                          child: Row(
+                            children: [
+                              Icon(
+                                HarmonicModeVisuals.iconFor(key.mode),
+                                color: HarmonicModeVisuals.colorFor(key.mode),
+                                size: 18,
                               ),
-                            ),
-                            const SizedBox(height: 4),
-                            if (currentDegreeObj != null)
+                              const SizedBox(width: 10),
                               Text(
-                                'Grado ${currentDegreeObj.degree} • ${currentDegreeObj.role}',
+                                key.name,
                                 style: const TextStyle(
-                                  color: AppColors.accentCyan,
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w500,
+                                  color: AppColors.textPrimary,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
                                 ),
                               ),
-                          ],
-                        ),
-                      ),
-                      ElevatedButton.icon(
-                        onPressed: provider.playCurrentChord,
-                        icon: const Icon(Icons.volume_up, color: Colors.white, size: 18),
-                        label: const Text('Escuchar'),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: AppColors.secondaryCopper,
-                          foregroundColor: Colors.white,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
+                            ],
                           ),
-                          elevation: 4,
-                        ),
-                      ),
-                    ],
+                        );
+                      }).toList(),
+                      onChanged: (newKey) {
+                        if (newKey != null) provider.selectKey(newKey);
+                      },
+                    ),
                   ),
                 ],
               ),
             ),
             const SizedBox(height: 12),
 
-            // Fretboard Visualizer
-            CuatroFretboardWidget(
-              frets: chord.frets,
-              isInteractive: false,
-              onFretTapped: (stringIndex, fret) {
-                provider.playSingleNote(stringIndex, fret);
-              },
+            // Degree Selector Bar (I to VII)
+            DegreeSelectorBar(
+              selectedDegree: provider.selectedDegree,
+              onDegreeSelected: provider.selectDegree,
             ),
-          ] else ...[
-            const GlassCard(
-              child: Center(
-                child: Padding(
-                  padding: EdgeInsets.all(24.0),
-                  child: Text(
-                    'No se encontró acorde para la combinación seleccionada.',
-                    style: TextStyle(color: AppColors.textMuted),
+            const SizedBox(height: 16),
+
+            // Chord Display Card
+            if (chord != null) ...[
+              GlassCard(
+                borderColor: AppColors.primaryAmber,
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                chord.displayTitle,
+                                style: const TextStyle(
+                                  color: AppColors.textPrimary,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              if (currentDegreeObj != null)
+                                Text(
+                                  'Grado ${currentDegreeObj.degree} • ${currentDegreeObj.role}',
+                                  style: const TextStyle(
+                                    color: AppColors.accentCyan,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                        ElevatedButton.icon(
+                          onPressed: provider.playCurrentChord,
+                        icon: const Icon(Icons.volume_up, color: Colors.white, size: 18),
+                          label: const Text('Escuchar'),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: AppColors.secondaryCopper,
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            elevation: 4,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 12),
+
+              // Fretboard Visualizer
+              CuatroFretboardWidget(
+                frets: chord.frets,
+                isInteractive: false,
+                onFretTapped: (stringIndex, fret) {
+                  provider.playSingleNote(stringIndex, fret);
+                },
+              ),
+            ] else ...[
+              const GlassCard(
+                child: Center(
+                  child: Padding(
+                    padding: EdgeInsets.all(24.0),
+                    child: Text(
+                      'No se encontró acorde para la combinación seleccionada.',
+                      style: TextStyle(color: AppColors.textMuted),
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
           ],
         ),
       ),

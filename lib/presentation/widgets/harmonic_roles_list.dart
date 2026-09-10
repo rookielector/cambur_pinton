@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/constants/app_colors.dart';
+import '../../core/constants/harmonic_mode_visuals.dart';
 import '../../domain/models/harmonic_key_model.dart';
 import 'glass_card.dart';
 
@@ -52,7 +53,9 @@ class HarmonicRolesList extends StatelessWidget {
           itemCount: roles.length,
           itemBuilder: (context, index) {
             final match = roles[index];
-            final isMajor = match.key.mode == 'major';
+            final modeColor = HarmonicModeVisuals.colorFor(match.key.mode);
+            final modeIcon = HarmonicModeVisuals.iconFor(match.key.mode);
+            final modeLabel = HarmonicModeVisuals.labelFor(match.key.mode);
 
             return GlassCard(
               margin: const EdgeInsets.symmetric(vertical: 4),
@@ -63,23 +66,15 @@ class HarmonicRolesList extends StatelessWidget {
                     width: 38,
                     height: 38,
                     decoration: BoxDecoration(
-                      color: isMajor
-                          ? AppColors.primaryAmber.withValues(alpha: 0.2)
-                          : AppColors.secondaryCopper.withValues(alpha: 0.2),
+                      color: modeColor.withValues(alpha: 0.2),
                       shape: BoxShape.circle,
-                      border: Border.all(
-                        color: isMajor
-                            ? AppColors.primaryAmber
-                            : AppColors.secondaryCopper,
-                      ),
+                      border: Border.all(color: modeColor),
                     ),
                     child: Center(
                       child: Text(
                         match.degree.degree,
                         style: TextStyle(
-                          color: isMajor
-                              ? AppColors.primaryAmber
-                              : AppColors.secondaryCopper,
+                          color: modeColor,
                           fontWeight: FontWeight.bold,
                           fontSize: 14,
                         ),
@@ -99,6 +94,20 @@ class HarmonicRolesList extends StatelessWidget {
                             fontSize: 14,
                           ),
                         ),
+                        Row(
+                          children: [
+                            Icon(modeIcon, color: modeColor, size: 15),
+                            const SizedBox(width: 4),
+                            Text(
+                              modeLabel,
+                              style: TextStyle(
+                                color: modeColor,
+                                fontSize: 11,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ],
+                        ),
                         Text(
                           'Grado ${match.degree.degree} • ${match.degree.role}',
                           style: const TextStyle(
@@ -111,12 +120,10 @@ class HarmonicRolesList extends StatelessWidget {
                   ),
                   Chip(
                     label: Text(
-                      isMajor ? 'Mayor' : 'Menor',
+                      modeLabel,
                       style: const TextStyle(fontSize: 10, color: Colors.white),
                     ),
-                    backgroundColor: isMajor
-                        ? AppColors.primaryAmber.withValues(alpha: 0.4)
-                        : AppColors.secondaryCopper.withValues(alpha: 0.4),
+                    backgroundColor: modeColor.withValues(alpha: 0.4),
                     visualDensity: VisualDensity.compact,
                   ),
                 ],

@@ -12,6 +12,10 @@ class AppColors {
   static const Color secondaryCopper = Color(0xFFE65100);
   static const Color accentCyan = Color(0xFF00E5FF);
   static const Color accentGold = Color(0xFFFFD54F);
+  static const Color modeHarmonicMinor = Color(0xFF26A69A);
+  static const Color modeMelodicMinor = Color(0xFFEC407A);
+  static const Color modeDorian = Color(0xFF66BB6A);
+  static const Color modeMixolydian = Color(0xFF42A5F5);
 
 
   static const Color textPrimary = Color(0xFFFFF8E1);
