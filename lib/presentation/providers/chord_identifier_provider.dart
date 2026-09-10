@@ -9,12 +9,14 @@ class ChordIdentifierProvider extends ChangeNotifier {
   final CuatroAudioService _audioService = CuatroAudioService();
 
   List<int> _selectedFrets = [0, 0, 0, 0];
+  List<ChordModel> _identifiedChords = [];
   ChordModel? _identifiedChord;
   List<HarmonicRoleMatch> _harmonicRoles = [];
 
   ChordIdentifierProvider(this._repository);
 
   List<int> get selectedFrets => List.unmodifiable(_selectedFrets);
+  List<ChordModel> get identifiedChords => List.unmodifiable(_identifiedChords);
   ChordModel? get identifiedChord => _identifiedChord;
   List<HarmonicRoleMatch> get harmonicRoles => _harmonicRoles;
 
@@ -25,8 +27,11 @@ class ChordIdentifierProvider extends ChangeNotifier {
     } else {
       _selectedFrets[stringIndex] = fret;
     }
-    
-    _audioService.playNote(stringIndex: stringIndex, fret: _selectedFrets[stringIndex]);
+
+    _audioService.playNote(
+      stringIndex: stringIndex,
+      fret: _selectedFrets[stringIndex],
+    );
     _evaluateFingerPosition();
     notifyListeners();
   }
@@ -37,9 +42,21 @@ class ChordIdentifierProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void selectIdentifiedChord(ChordModel chord) {
+    if (!_identifiedChords.contains(chord)) return;
+    _identifiedChord = chord;
+    _harmonicRoles = _repository.findHarmonicRolesForChord(chord.id);
+    notifyListeners();
+  }
+
   void _evaluateFingerPosition() {
-    _identifiedChord = _repository.getChordByFrets(_selectedFrets);
-    _harmonicRoles = _repository.findHarmonicRolesForChord(_selectedFrets);
+    _identifiedChords = _repository.getChordsByFrets(_selectedFrets);
+    _identifiedChord = _identifiedChords.isEmpty
+        ? null
+        : _identifiedChords.first;
+    _harmonicRoles = _identifiedChord == null
+        ? []
+        : _repository.findHarmonicRolesForChord(_identifiedChord!.id);
   }
 
   void playIdentifiedChord() {

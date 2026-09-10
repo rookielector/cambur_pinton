@@ -8,6 +8,6 @@ abstract class HarmonyRepository {
   List<HarmonicKeyModel> getMajorKeys();
   List<HarmonicKeyModel> getMinorKeys();
   ChordModel? getChordById(String chordId);
-  ChordModel? getChordByFrets(List<int> frets);
-  List<HarmonicRoleMatch> findHarmonicRolesForChord(List<int> frets);
+  List<ChordModel> getChordsByFrets(List<int> frets);
+  List<HarmonicRoleMatch> findHarmonicRolesForChord(String chordId);
 }

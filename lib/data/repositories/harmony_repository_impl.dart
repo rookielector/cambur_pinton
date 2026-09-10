@@ -6,7 +6,7 @@ import '../../domain/repositories/harmony_repository.dart';
 
 class HarmonyRepositoryImpl implements HarmonyRepository {
   final Map<String, ChordModel> _chordsById = {};
-  final Map<String, ChordModel> _chordsByFrets = {};
+  final Map<String, List<ChordModel>> _chordsByFrets = {};
   final List<HarmonicKeyModel> _keys = [];
   bool _isInitialized = false;
 
@@ -22,7 +22,7 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
     for (final item in chordsJson) {
       final chord = ChordModel.fromJson(item as Map<String, dynamic>);
       _chordsById[chord.id] = chord;
-      _chordsByFrets[chord.fretsKey] = chord;
+      _chordsByFrets.putIfAbsent(chord.fretsKey, () => []).add(chord);
     }
 
     final harmoniesRaw = await AssetLoaderService.loadJsonString(
@@ -56,14 +56,14 @@ class HarmonyRepositoryImpl implements HarmonyRepository {
   ChordModel? getChordById(String chordId) => _chordsById[chordId];
 
   @override
-  ChordModel? getChordByFrets(List<int> frets) {
+  List<ChordModel> getChordsByFrets(List<int> frets) {
     final key = frets.join(',');
-    return _chordsByFrets[key];
+    return List.unmodifiable(_chordsByFrets[key] ?? const []);
   }
 
   @override
-  List<HarmonicRoleMatch> findHarmonicRolesForChord(List<int> frets) {
-    final targetChord = getChordByFrets(frets);
+  List<HarmonicRoleMatch> findHarmonicRolesForChord(String chordId) {
+    final targetChord = getChordById(chordId);
     if (targetChord == null) return [];
 
     final List<HarmonicRoleMatch> matches = [];

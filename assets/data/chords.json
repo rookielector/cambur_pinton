@@ -3,504 +3,3900 @@
     "id": "c_major",
     "name_es": "Do mayor",
     "notation": "C",
-    "display_title": "C - Do mayor",
-    "frets": [3, 2, 1, 1],
+    "display_title": "C, Do mayor",
+    "frets": [
+      3,
+      2,
+      1,
+      1
+    ],
     "barre_fret": 1
   },
   {
     "id": "c_minor",
     "name_es": "Do menor",
     "notation": "Cm",
-    "display_title": "Cm - Do menor",
-    "frets": [3, 1, 1, 1],
+    "display_title": "Cm, Do menor",
+    "frets": [
+      3,
+      1,
+      1,
+      1
+    ],
     "barre_fret": 1
+  },
+  {
+    "id": "c_aug",
+    "name_es": "Do aumentado",
+    "notation": "C+",
+    "display_title": "C+, Do aumentado",
+    "frets": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_dim",
+    "name_es": "Do disminuido",
+    "notation": "Cº",
+    "display_title": "Cº, Do disminuido",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
   },
   {
     "id": "c_dom7",
     "name_es": "Do séptima dominante",
     "notation": "C7",
-    "display_title": "C7 - Do séptima",
-    "frets": [1, 2, 1, 1],
+    "display_title": "C7, Do séptima dominante",
+    "frets": [
+      1,
+      2,
+      1,
+      1
+    ],
     "barre_fret": null
   },
   {
-    "id": "c_dim7",
-    "name_es": "Do disminuido 7ma",
-    "notation": "Cdis7",
-    "display_title": "B#7 Si sostenido 7 / Cdis7 - Do disminuido 7ma",
-    "frets": [0, 1, 0, 1],
+    "id": "c_m7",
+    "name_es": "Do menor séptima",
+    "notation": "Cm7",
+    "display_title": "Cm7, Do menor séptima",
+    "frets": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_6",
+    "name_es": "Do sexta",
+    "notation": "C6",
+    "display_title": "C6, Do sexta",
+    "frets": [
+      0,
+      2,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_m6",
+    "name_es": "Do menor sexta",
+    "notation": "Cm6",
+    "display_title": "Cm6, Do menor sexta",
+    "frets": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_maj7",
+    "name_es": "Do mayor con séptima mayor",
+    "notation": "Cmaj7",
+    "display_title": "Cmaj7, Do mayor con séptima mayor",
+    "frets": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_m_maj7",
+    "name_es": "Do menor con séptima mayor",
+    "notation": "Cm(maj7)",
+    "display_title": "Cm(maj7), Do menor con séptima mayor",
+    "frets": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sus4",
+    "name_es": "Do con cuarta suspendida",
+    "notation": "C(sus4)",
+    "display_title": "C(sus4), Do con cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_7sus4",
+    "name_es": "Do séptima con cuarta suspendida",
+    "notation": "C7(sus4)",
+    "display_title": "C7(sus4), Do séptima con cuarta suspendida",
+    "frets": [
+      1,
+      3,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_7b5",
+    "name_es": "Do séptima con quinta bemol o disminuida",
+    "notation": "C7(b5)",
+    "display_title": "C7(b5), Do séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      0,
+      1
+    ],
     "barre_fret": null
   },
   {
     "id": "c_m7b5",
-    "name_es": "Do menor 7ma con 5ta bemol",
+    "name_es": "Do menor séptima con quinta bemol o disminuida",
     "notation": "Cm7(b5)",
-    "display_title": "Cm7(b5) - Do menor 7ma (b5)",
-    "frets": [1, 1, 0, 1],
+    "display_title": "Cm7(b5), Do menor séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_7sharp5",
+    "name_es": "Do séptima con quinta aumentada",
+    "notation": "C7(#5)",
+    "display_title": "C7(#5), Do séptima con quinta aumentada",
+    "frets": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_add9",
+    "name_es": "Do mayor con novena agregada",
+    "notation": "C(add9)",
+    "display_title": "C(add9), Do mayor con novena agregada",
+    "frets": [
+      3,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_m_add9",
+    "name_es": "Do menor con novena agregada",
+    "notation": "Cm(add9)",
+    "display_title": "Cm(add9), Do menor con novena agregada",
+    "frets": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sus2",
+    "name_es": "Do con segunda suspendida",
+    "notation": "C(sus2)",
+    "display_title": "C(sus2), Do con segunda suspendida",
+    "frets": [
+      3,
+      0,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_7sus2",
+    "name_es": "Do séptima con segunda suspendida",
+    "notation": "C7(sus2)",
+    "display_title": "C7(sus2), Do séptima con segunda suspendida",
+    "frets": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_9",
+    "name_es": "Do novena",
+    "notation": "C9",
+    "display_title": "C9, Do novena",
+    "frets": [
+      1,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_maj7_sus4",
+    "name_es": "Do mayor con séptima mayor y cuarta suspendida",
+    "notation": "Cmaj7(sus4)",
+    "display_title": "Cmaj7(sus4), Do mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_7b9",
+    "name_es": "Do séptima novena bemol",
+    "notation": "C7(b9)",
+    "display_title": "C7(b9), Do séptima novena bemol",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_maj7_sharp5",
+    "name_es": "Do mayor con séptima mayor y quinta aumentada",
+    "notation": "Cmaj7(#5)",
+    "display_title": "Cmaj7(#5), Do mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      3,
+      2,
+      2,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_maj7_add9",
+    "name_es": "Do mayor con séptima mayor y novena agregada",
+    "notation": "Cmaj7(add9)",
+    "display_title": "Cmaj7(add9), Do mayor con séptima mayor y novena agregada",
+    "frets": [
+      2,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_m7_add9",
+    "name_es": "Do menor séptima con novena agregada",
+    "notation": "Cm7(add9)",
+    "display_title": "Cm7(add9), Do menor séptima con novena agregada",
+    "frets": [
+      1,
+      1,
+      1,
+      3
+    ],
     "barre_fret": 1
   },
   {
     "id": "c_sharp_major",
-    "name_es": "Do sostenido mayor / Reb mayor",
+    "name_es": "Do sostenido / Reb mayor",
     "notation": "C# / Db",
-    "display_title": "Db - Reb mayor / C# - Do# mayor",
-    "frets": [4, 3, 2, 2],
+    "display_title": "C# / Db, Do sostenido / Reb mayor",
+    "frets": [
+      4,
+      3,
+      2,
+      2
+    ],
     "barre_fret": 2
   },
   {
     "id": "c_sharp_minor",
-    "name_es": "Do sostenido menor",
-    "notation": "C#m",
-    "display_title": "C#m - Do# menor",
-    "frets": [4, 2, 2, 2],
+    "name_es": "Do sostenido menor / Reb bemol menor",
+    "notation": "C#m / Dbm",
+    "display_title": "C#m / Dbm, Do sostenido menor / Reb bemol menor",
+    "frets": [
+      4,
+      2,
+      2,
+      2
+    ],
     "barre_fret": 2
   },
   {
-    "id": "c_sharp_dom7",
-    "name_es": "Do sostenido 7ma / Reb 7ma",
-    "notation": "C#7 / Db7",
-    "display_title": "C#7 / Db7 - Reb séptima",
-    "frets": [4, 3, 2, 0],
+    "id": "c_sharp_aug",
+    "name_es": "Do sostenido aumentado / Reb aumentado",
+    "notation": "C#+ / Db+",
+    "display_title": "C#+ / Db+, Do sostenido aumentado / Reb aumentado",
+    "frets": [
+      4,
+      3,
+      3,
+      2
+    ],
     "barre_fret": null
   },
   {
-    "id": "c_sharp_dim7",
-    "name_es": "Do sostenido disminuido 7ma",
-    "notation": "C#º7",
-    "display_title": "C#º7 - Do# disminuido 7ma",
-    "frets": [1, 2, 1, 2],
+    "id": "c_sharp_dim",
+    "name_es": "Do sostenido disminuido / Reb disminuido",
+    "notation": "C#º / Dbº",
+    "display_title": "C#º / Dbº, Do sostenido disminuido / Reb disminuido",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_dom7",
+    "name_es": "Do sostenido septima / Reb séptima dominante",
+    "notation": "C#7 / Db7",
+    "display_title": "C#7 / Db7, Do sostenido septima / Reb séptima dominante",
+    "frets": [
+      2,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sharp_m7",
+    "name_es": "Do sostenido menor séptima/ Reb menor séptima",
+    "notation": "C#m7 / Dbm7",
+    "display_title": "C#m7 / Dbm7, Do sostenido menor séptima / Reb menor séptima",
+    "frets": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_6",
+    "name_es": "Do sostenido sexta / Reb sexta",
+    "notation": "C#6 / Db6",
+    "display_title": "C#6 / Db6, Do sostenido sexta / Reb sexta",
+    "frets": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_m6",
+    "name_es": "Do sostenido / Reb menor sexta",
+    "notation": "C#m6 / Dbm6",
+    "display_title": "C#m6 / Dbm6, Do sostenido menor sexta / Reb menor sexta",
+    "frets": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_maj7",
+    "name_es": "Do sostenido con séptima mayor / Reb mayor con séptima mayor",
+    "notation": "C#maj7 / Dbmaj7",
+    "display_title": "C#maj7 / Dbmaj7, Do sostenido con séptima mayor / Reb mayor con séptima mayor",
+    "frets": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sharp_m_maj7",
+    "name_es": "Do sostenido menor con séptima mayor / Reb menor con séptima mayor",
+    "notation": "C#maj7 / Dbm(maj7)",
+    "display_title": "C#maj7 / Dbm(maj7), Do sostenido menor con séptima mayor / Reb menor con séptima mayor",
+    "frets": [
+      3,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_sus4",
+    "name_es": "Do sostenido con cuarta suspendida / Reb con cuarta suspendida",
+    "notation": "C#(sus4) / Db(sus4)",
+    "display_title": "C#(sus4) / Db(sus4), Do sostenido con cuarta suspendida / Reb con cuarta suspendida",
+    "frets": [
+      4,
+      4,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_7sus4",
+    "name_es": "Do sostenido séptima con cuarta suspendida / Reb séptima con cuarta suspendida",
+    "notation": "C#7(sus4) / Db7(sus4)",
+    "display_title": "C#7(sus4) / Db7(sus4), Do sostenido séptima con cuarta suspendida / Reb séptima con cuarta suspendida",
+    "frets": [
+      2,
+      4,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_7b5",
+    "name_es": "Do sostenido séptima con quinta bemol o disminuida / Reb séptima con quinta bemol o disminuida",
+    "notation": "C#7(b5) / Db7(b5)",
+    "display_title": "C#7(b5) / Db7(b5), Do sostenido séptima con quinta bemol o disminuida / Reb séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      1,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "c_sharp_m7b5",
-    "name_es": "Do sostenido menor 7ma (b5)",
-    "notation": "C#m7(b5)",
-    "display_title": "C#m7(b5) - Do# menor 7ma (b5)",
-    "frets": [2, 1, 2, 2],
+    "name_es": "Do sostenido menor séptima con quinta bemol o disminuida / Reb menor séptima con quinta bemol o disminuida",
+    "notation": "C#m7(b5) / Dbm7(b5)",
+    "display_title": "C#m7(b5) / Dbm7(b5), Do sostenido menor séptima con quinta bemol o disminuida / Reb menor séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_7sharp5",
+    "name_es": "Do sostenido séptima con quinta aumentada / Reb séptima con quinta aumentada",
+    "notation": "C#7(#5) / Db7(#5)",
+    "display_title": "C#7(#5) / Db7(#5), Do sostenido séptima con quinta aumentada / Reb séptima con quinta aumentada",
+    "frets": [
+      2,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_add9",
+    "name_es": "Do sostenido mayor con novena agregada / Reb mayor con novena agregada",
+    "notation": "C#(add9) / Db(add9)",
+    "display_title": "C#(add9) / Db(add9), Do sostenido mayor con novena agregada / Reb mayor con novena agregada",
+    "frets": [
+      4,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_m_add9",
+    "name_es": "Do sostenido menor con novena agregada / Reb menor con novena agregada",
+    "notation": "C#m(add9) / Dbm(add9)",
+    "display_title": "C#m(add9) / Dbm(add9), Do sostenido menor con novena agregada / Reb menor con novena agregada",
+    "frets": [
+      4,
+      2,
+      2,
+      4
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_sus2",
+    "name_es": "Do sostenido con segunda suspendida / Reb con segunda suspendida",
+    "notation": "C#(sus2) / Db(sus2)",
+    "display_title": "C#(sus2) / Db(sus2), Do sostenido con segunda suspendida / Reb con segunda suspendida",
+    "frets": [
+      4,
+      1,
+      2,
+      2
+    ],
+    "barre_fret": 2
+  },
+  {
+    "id": "c_sharp_7sus2",
+    "name_es": "Do sostenido séptima con segunda suspendida / Reb séptima con segunda suspendida",
+    "notation": "C#7(sus2) / Db7(sus2)",
+    "display_title": "C#7(sus2) / Db7(sus2), Do sostenido séptima con segunda suspendida / Reb séptima con segunda suspendida",
+    "frets": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_9",
+    "name_es": "Do sostenido novena / Reb novena",
+    "notation": "C#9 / Db9",
+    "display_title": "C#9 / Db9, Do sostenido novena / Reb novena",
+    "frets": [
+      2,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_maj7_sus4",
+    "name_es": "Do sostenido mayor con séptima mayor y cuarta suspendida / Reb mayor con séptima mayor y cuarta suspendida",
+    "notation": "C#maj7(sus4) / Dbmaj7(sus4)",
+    "display_title": "C#maj7(sus4) / Dbmaj7(sus4), Do sostenido mayor con séptima mayor y cuarta suspendida / Reb mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      3,
+      4,
+      2,
+      22
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sharp_7b9",
+    "name_es": "Do sostenido séptima novena bemol / Reb séptima novena bemol",
+    "notation": "C#7(b9) / Db7(b9)",
+    "display_title": "C#7(b9) / Db7(b9), Do sostenido séptima novena bemol / Reb séptima novena bemol",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_maj7_sharp5",
+    "name_es": "Do sostenido mayor con séptima mayor y quinta aumentada / Reb mayor con séptima mayor y quinta aumentada",
+    "notation": "C#maj7(#5) / Dbmaj7(#5)",
+    "display_title": "C#maj7(#5) / Dbmaj7(#5), Do sostenido mayor con séptima mayor y quinta aumentada / Reb mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      3,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "c_sharp_maj7_add9",
+    "name_es": "Do sostenido mayor con séptima mayor y novena agregada / Reb mayor con séptima mayor y novena agregada",
+    "notation": "C#maj7(add9) / Dbmaj7(add9)",
+    "display_title": "C#maj7(add9) / Dbmaj7(add9), Do sostenido mayor con séptima mayor y novena agregada / Reb mayor con séptima mayor y novena agregada",
+    "frets": [
+      3,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "c_sharp_m7_add9",
+    "name_es": "Do sostenido menor séptima con novena agregada / Reb menor séptima con novena agregada",
+    "notation": "C#m7(add9) / Dbm7(add9)",
+    "display_title": "C#m7(add9) / Dbm7(add9), Do sostenido menor séptima con novena agregada / Reb menor séptima con novena agregada",
+    "frets": [
+      2,
+      2,
+      2,
+      4
+    ],
     "barre_fret": 2
   },
   {
     "id": "d_major",
     "name_es": "Re mayor",
     "notation": "D",
-    "display_title": "D - Re mayor",
-    "frets": [0, 0, 0, 3],
+    "display_title": "D, Re mayor",
+    "frets": [
+      0,
+      0,
+      0,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "d_minor",
     "name_es": "Re menor",
     "notation": "Dm",
-    "display_title": "Dm - Re menor",
-    "frets": [0, 3, 3, 3],
+    "display_title": "Dm, Re menor",
+    "frets": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_aug",
+    "name_es": "Re aumentado",
+    "notation": "D+",
+    "display_title": "D+, Re aumentado",
+    "frets": [
+      1,
+      0,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_dim",
+    "name_es": "Re disminuido",
+    "notation": "Dº",
+    "display_title": "Dº, Re disminuido",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "d_dom7",
     "name_es": "Re séptima dominante",
     "notation": "D7",
-    "display_title": "D7 - Re séptima dominante",
-    "frets": [0, 0, 0, 1],
+    "display_title": "D7, Re séptima dominante",
+    "frets": [
+      0,
+      0,
+      0,
+      1
+    ],
     "barre_fret": null
   },
   {
-    "id": "d_dim7",
-    "name_es": "Re disminuido 7ma",
-    "notation": "Dº7",
-    "display_title": "Dº7 - Re disminuido 7ma",
-    "frets": [2, 3, 2, 3],
+    "id": "d_m7",
+    "name_es": "Re menor séptima",
+    "notation": "Dm7",
+    "display_title": "Dm7, Re menor séptima",
+    "frets": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_6",
+    "name_es": "Re sexta",
+    "notation": "D6",
+    "display_title": "D6, Re sexta",
+    "frets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_m6",
+    "name_es": "Re menor sexta",
+    "notation": "Dm6",
+    "display_title": "Dm6, Re menor sexta",
+    "frets": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_maj7",
+    "name_es": "Re mayor con séptima mayor",
+    "notation": "Dmaj7",
+    "display_title": "Dmaj7, Re mayor con séptima mayor",
+    "frets": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_m_maj7",
+    "name_es": "Re menor con séptima mayor",
+    "notation": "Dm(maj7)",
+    "display_title": "Dm(maj7), Re menor con séptima mayor",
+    "frets": [
+      4,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sus4",
+    "name_es": "Re con cuarta suspendida",
+    "notation": "D(sus4)",
+    "display_title": "D(sus4), Re con cuarta suspendida",
+    "frets": [
+      0,
+      0,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_7sus4",
+    "name_es": "Re séptima con cuarta suspendida",
+    "notation": "D7(sus4)",
+    "display_title": "D7(sus4), Re séptima con cuarta suspendida",
+    "frets": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_7b5",
+    "name_es": "Re séptima con quinta bemol o disminuida",
+    "notation": "D7(b5)",
+    "display_title": "D7(b5), Re séptima con quinta bemol o disminuida",
+    "frets": [
+      3,
+      4,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "d_m7b5",
-    "name_es": "Re menor 7ma (b5)",
+    "name_es": "Re menor séptima con quinta bemol o disminuida",
     "notation": "Dm7(b5)",
-    "display_title": "Dm7(b5) - Re menor 7ma (b5)",
-    "frets": [3, 3, 2, 3],
-    "barre_fret": 1
-  },
-  {
-    "id": "eb_major",
-    "name_es": "Mi bemol mayor",
-    "notation": "Eb",
-    "display_title": "Eb - Mi bemol mayor",
-    "frets": [1, 1, 1, 4],
-    "barre_fret": 1
-  },
-  {
-    "id": "eb_minor",
-    "name_es": "Mi bemol menor / Re# menor",
-    "notation": "Ebm / D#m",
-    "display_title": "Ebm - Mib menor / D#m - Re# menor",
-    "frets": [1, 1, 0, 2],
-    "barre_fret": 1
-  },
-  {
-    "id": "eb_dom7",
-    "name_es": "Mi bemol 7ma / Re# 7ma",
-    "notation": "Eb7 / D#7",
-    "display_title": "Eb7 - Mib séptima dominante",
-    "frets": [1, 1, 1, 2],
-    "barre_fret": 1
-  },
-  {
-    "id": "eb_dim7",
-    "name_es": "Mi bemol disminuido 7ma",
-    "notation": "D#º7",
-    "display_title": "D#º7 - Re# disminuido 7ma",
-    "frets": [0, 1, 0, 1],
+    "display_title": "Dm7(b5), Re menor séptima con quinta bemol o disminuida",
+    "frets": [
+      3,
+      3,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
-    "id": "eb_m7b5",
-    "name_es": "Mi bemol menor 7ma (b5)",
-    "notation": "Ebm7(b5)",
-    "display_title": "D#m7 Re sostenido menor 7/ Ebm7(b5) - Mib menor 7ma (b5)",
-    "frets": [0, 1, 0, 2],
-    "barre_fret": 2
+    "id": "d_7sharp5",
+    "name_es": "Re séptima con quinta aumentada",
+    "notation": "D7(#5)",
+    "display_title": "D7(#5), Re séptima con quinta aumentada",
+    "frets": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_add9",
+    "name_es": "Re mayor con novena agregada",
+    "notation": "D(add9)",
+    "display_title": "D(add9), Re mayor con novena agregada",
+    "frets": [
+      0,
+      2,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_m_add9",
+    "name_es": "Re menor con novena agregada",
+    "notation": "Dm(add9)",
+    "display_title": "Dm(add9), Re menor con novena agregada",
+    "frets": [
+      5,
+      3,
+      3,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sus2",
+    "name_es": "Re con segunda suspendida",
+    "notation": "D(sus2)",
+    "display_title": "D(sus2), Re con segunda suspendida",
+    "frets": [
+      0,
+      2,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_7sus2",
+    "name_es": "Re séptima con segunda suspendida",
+    "notation": "D7(sus2)",
+    "display_title": "D7(sus2), Re séptima con segunda suspendida",
+    "frets": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_9",
+    "name_es": "Re novena",
+    "notation": "D9",
+    "display_title": "D9, Re novena",
+    "frets": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_maj7_sus4",
+    "name_es": "Re mayor con séptima mayor y cuarta suspendida",
+    "notation": "Dmaj7(sus4)",
+    "display_title": "Dmaj7(sus4), Re mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      0,
+      0,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_7b9",
+    "name_es": "Re séptima novena bemol",
+    "notation": "D7(b9)",
+    "display_title": "D7(b9), Re séptima novena bemol",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_maj7_sharp5",
+    "name_es": "Re mayor con séptima mayor y quinta aumentada",
+    "notation": "Dmaj7(#5)",
+    "display_title": "Dmaj7(#5), Re mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      1,
+      0,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_maj7_add9",
+    "name_es": "Re mayor con séptima mayor y novena agregada",
+    "notation": "Dmaj7(add9)",
+    "display_title": "Dmaj7(add9), Re mayor con séptima mayor y novena agregada",
+    "frets": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_m7_add9",
+    "name_es": "Re menor séptima con novena agregada",
+    "notation": "Dm7(add9)",
+    "display_title": "Dm7(add9), Re menor séptima con novena agregada",
+    "frets": [
+      3,
+      3,
+      3,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_major",
+    "name_es": "Re sostenido / Mib mayor",
+    "notation": "D# / Eb",
+    "display_title": "D# / Eb, Re sostenido / Mib mayor",
+    "frets": [
+      1,
+      1,
+      1,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_minor",
+    "name_es": "Re sostenido menor / Mib menor",
+    "notation": "D#m / Ebm",
+    "display_title": "D#m / Ebm, Re sostenido menor / Mib menor",
+    "frets": [
+      6,
+      4,
+      4,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_aug",
+    "name_es": "Re sostenido aumentado / Mib aumentado",
+    "notation": "D#+ / Eb+",
+    "display_title": "D#+ / Eb+, Re sostenido aumentado / Mib aumentado",
+    "frets": [
+      2,
+      1,
+      1,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_dim",
+    "name_es": "Re sostenido disminuido / Mib disminuido",
+    "notation": "D#º / Ebº",
+    "display_title": "D#º / Ebº, Re sostenido disminuido / Mib disminuido",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_dom7",
+    "name_es": "Re sostenido séptima / Mib séptima dominante",
+    "notation": "D#7 / Eb7",
+    "display_title": "D#7 / Eb7, Re sostenido séptima / Mib séptima dominante",
+    "frets": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m7",
+    "name_es": "Re sostenido menor séptima / Mib menor séptima",
+    "notation": "D#m7 / Ebm7",
+    "display_title": "D#m7 / Ebm7, Re sostenido menor séptima / Mib menor séptima",
+    "frets": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_6",
+    "name_es": "Re sostenido sexta / Mib sexta",
+    "notation": "D#6 / Eb6",
+    "display_title": "D#6 / Eb6, Re sostenido sexta / Mib sexta",
+    "frets": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m6",
+    "name_es": "Re sostenido menor sexta / Mib menor sexta",
+    "notation": "D#m6 / Ebm6",
+    "display_title": "D#m6 / Ebm6, Re sostenido menor sexta / Mib menor sexta",
+    "frets": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_maj7",
+    "name_es": "Re sostenido mayor con séptima mayor / Mib mayor con séptima mayor",
+    "notation": "D#maj7 / Ebmaj7",
+    "display_title": "D#maj7 / Ebmaj7, Re sostenido mayor con séptima mayor / Mib mayor con séptima mayor",
+    "frets": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m_maj7",
+    "name_es": "Re sostenido menor con séptima mayor / Mib menor con séptima mayor",
+    "notation": "D#m(maj7) / Ebm(maj7)",
+    "display_title": "D#m(maj7) / Ebm(maj7), Re sostenido menor con séptima mayor / Mib menor con séptima mayor",
+    "frets": [
+      1,
+      1,
+      0,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_sus4",
+    "name_es": "Re sostenido con cuarta suspendida / Mib con cuarta suspendida",
+    "notation": "D#(sus4) / Eb(sus4)",
+    "display_title": "D#(sus4) / Eb(sus4), Re sostenido con cuarta suspendida / Mib con cuarta suspendida",
+    "frets": [
+      1,
+      1,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_7sus4",
+    "name_es": "Re sostenido séptima con cuarta suspendida / Mib séptima con cuarta suspendida",
+    "notation": "D#7(sus4) / Eb7(sus4)",
+    "display_title": "D#7(sus4) / Eb7(sus4), Re sostenido séptima con cuarta suspendida / Mib séptima con cuarta suspendida",
+    "frets": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_7b5",
+    "name_es": "Re sostenido séptima con quinta bemol o disminuida / Mib séptima con quinta bemol o disminuida",
+    "notation": "D#7(b5) / Eb7(b5)",
+    "display_title": "D#7(b5) / Eb7(b5), Re sostenido séptima con quinta bemol o disminuida / Mib séptima con quinta bemol o disminuida",
+    "frets": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m7b5",
+    "name_es": "Re sostenido menor séptima con quinta bemol o disminuida / Mib menor séptima con quinta bemol o disminuida",
+    "notation": "D#m7(b5) / Ebm7(b5)",
+    "display_title": "D#m7(b5) / Ebm7(b5), Re sostenido menor séptima con quinta bemol o disminuida / Mib menor séptima con quinta bemol o disminuida",
+    "frets": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_7sharp5",
+    "name_es": "Re sostenido séptima con quinta aumentada / Mib séptima con quinta aumentada",
+    "notation": "D#7(#5) / Eb7(#5)",
+    "display_title": "D#7(#5) / Eb7(#5), Re sostenido séptima con quinta aumentada / Mib séptima con quinta aumentada",
+    "frets": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_add9",
+    "name_es": "Re sostenido mayor con novena agregada / Mib mayor con novena agregada",
+    "notation": "D#(add9) / Eb(add9)",
+    "display_title": "D#(add9) / Eb(add9), Re sostenido mayor con novena agregada / Mib mayor con novena agregada",
+    "frets": [
+      1,
+      3,
+      1,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m_add9",
+    "name_es": "Re sostenido menor con novena agregada / Mib menor con novena agregada",
+    "notation": "D#m(add9) / Ebm(add9)",
+    "display_title": "D#m(add9) / Ebm(add9), Re sostenido menor con novena agregada / Mib menor con novena agregada",
+    "frets": [
+      6,
+      4,
+      4,
+      6
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_sus2",
+    "name_es": "Re sostenido con segunda suspendida / Mib con segunda suspendida",
+    "notation": "D#(sus2) / Eb(sus2)",
+    "display_title": "D#(sus2) / Eb(sus2), Re sostenido con segunda suspendida / Mib con segunda suspendida",
+    "frets": [
+      1,
+      3,
+      4,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_7sus2",
+    "name_es": "Re sostenido séptima con segunda suspendida / Mib séptima con segunda suspendida",
+    "notation": "D#7(sus2) / Eb7(sus2)",
+    "display_title": "D#7(sus2) / Eb7(sus2), Re sostenido séptima con segunda suspendida / Mib séptima con segunda suspendida",
+    "frets": [
+      4,
+      3,
+      4,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_9",
+    "name_es": "Re sostenido novena / Mib novena",
+    "notation": "D#(9) / Eb(9)",
+    "display_title": "D#(9) / Eb(9), Re sostenido novena / Mib novena",
+    "frets": [
+      1,
+      3,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_maj7_sus4",
+    "name_es": "Re sostenido ayor con séptima mayor y cuarta suspendida / Mib mayor con séptima mayor y cuarta suspendida",
+    "notation": "D#maj7(sus4) / Ebmaj7(sus4)",
+    "display_title": "D#maj7(sus4) / Ebmaj7(sus4), Re sostenido mayor con séptima mayor y cuarta suspendida / Mib mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_7b9",
+    "name_es": "Re sostenido séptima novena bemol / Mib séptima novena bemol",
+    "notation": "D#7(b9) / Eb7(b9)",
+    "display_title": "D#7(b9) / Eb7(b9), Re sostenido séptima novena bemol / Mib séptima novena bemol",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_maj7_sharp5",
+    "name_es": "Re sostenido mayor con séptima mayor y quinta aumentada / Mib mayor con séptima mayor y quinta aumentada",
+    "notation": "D#maj7(#5) / Ebmaj7(#5)",
+    "display_title": "D#maj7(#5) / Ebmaj7(#5), Re sostenido mayor con séptima mayor y quinta aumentada / Mib mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      2,
+      1,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "d_sharp_maj7_add9",
+    "name_es": "Re sostenido mayor con séptima mayor y novena agregada / Mib mayor con séptima mayor y novena agregada",
+    "notation": "D#maj7(add9) / Ebmaj7(add9)",
+    "display_title": "D#maj7(add9) / Ebmaj7(add9), Re sostenido mayor con séptima mayor y novena agregada / Mib mayor con séptima mayor y novena agregada",
+    "frets": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "d_sharp_m7_add9",
+    "name_es": "Re sostenido menor séptima con novena agregada / Mib menor séptima con novena agregada",
+    "notation": "D#m7(add9) / Ebm7(add9)",
+    "display_title": "D#m7(add9) / Ebm7(add9), Re sostenido menor séptima con novena agregada / Mib menor séptima con novena agregada",
+    "frets": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "barre_fret": null
   },
   {
     "id": "e_major",
     "name_es": "Mi mayor",
     "notation": "E",
-    "display_title": "E - Mi mayor",
-    "frets": [2, 2, 2, 0],
-    "barre_fret": 2
+    "display_title": "E, Mi mayor",
+    "frets": [
+      2,
+      2,
+      2,
+      0
+    ],
+    "barre_fret": null
   },
   {
     "id": "e_minor",
     "name_es": "Mi menor",
     "notation": "Em",
-    "display_title": "Em - Mi menor",
-    "frets": [2, 2, 1, 0],
+    "display_title": "Em, Mi menor",
+    "frets": [
+      2,
+      2,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_aug",
+    "name_es": "Mi aumentado",
+    "notation": "E+",
+    "display_title": "E+, Mi aumentado",
+    "frets": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_dim",
+    "name_es": "Mi disminuido",
+    "notation": "Eº",
+    "display_title": "Eº, Mi disminuido",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "e_dom7",
     "name_es": "Mi séptima dominante",
     "notation": "E7",
-    "display_title": "E7 - Mi séptima dominante",
-    "frets": [2, 2, 2, 3],
-    "barre_fret": 2
+    "display_title": "E7, Mi séptima dominante",
+    "frets": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "barre_fret": null
   },
   {
-    "id": "e_dim7",
-    "name_es": "Mi disminuido 7ma",
-    "notation": "Eº7",
-    "display_title": "Eº7 - Mi disminuido 7ma",
-    "frets": [1, 2, 1, 2],
+    "id": "e_m7",
+    "name_es": "Mi menor séptima",
+    "notation": "Em7",
+    "display_title": "Em7, Mi menor séptima",
+    "frets": [
+      2,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_6",
+    "name_es": "Mi sexta",
+    "notation": "E6",
+    "display_title": "E6, Mi sexta",
+    "frets": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_m6",
+    "name_es": "Mi menor sexta",
+    "notation": "Em6",
+    "display_title": "Em6, Mi menor sexta",
+    "frets": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_maj7",
+    "name_es": "Mi mayor con séptima mayor",
+    "notation": "Emaj7",
+    "display_title": "Emaj7, Mi mayor con séptima mayor",
+    "frets": [
+      2,
+      2,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_m_maj7",
+    "name_es": "Mi menor con séptima mayor",
+    "notation": "Em(maj7)",
+    "display_title": "Em(maj7), Mi menor con séptima mayor",
+    "frets": [
+      2,
+      2,
+      1,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_sus4",
+    "name_es": "Mi con cuarta suspendida",
+    "notation": "E(sus4)",
+    "display_title": "E(sus4), Mi con cuarta suspendida",
+    "frets": [
+      2,
+      2,
+      3,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_7sus4",
+    "name_es": "Mi séptima con cuarta suspendida",
+    "notation": "E7(sus4)",
+    "display_title": "E7(sus4), Mi séptima con cuarta suspendida",
+    "frets": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_7b5",
+    "name_es": "Mi séptima con quinta bemol o disminuida",
+    "notation": "E7(b5)",
+    "display_title": "E7(b5), Mi séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "e_m7b5",
-    "name_es": "Mi menor 7ma (b5)",
+    "name_es": "Mi menor séptima con quinta bemol o disminuida",
     "notation": "Em7(b5)",
-    "display_title": "Em7(b5) - Mi menor 7ma (b5)",
-    "frets": [1, 2, 1, 3],
-    "barre_fret": 3
+    "display_title": "Em7(b5), Mi menor séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_7sharp5",
+    "name_es": "Mi séptima con quinta aumentada",
+    "notation": "E7(#5)",
+    "display_title": "E7(#5), Mi séptima con quinta aumentada",
+    "frets": [
+      3,
+      2,
+      2,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_add9",
+    "name_es": "Mi mayor con novena agregada",
+    "notation": "E(add9)",
+    "display_title": "E(add9), Mi mayor con novena agregada",
+    "frets": [
+      2,
+      4,
+      2,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_m_add9",
+    "name_es": "Mi menor con novena agregada",
+    "notation": "Em(add9)",
+    "display_title": "Em(add9), Mi menor con novena agregada",
+    "frets": [
+      2,
+      5,
+      0,
+      5
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_sus2",
+    "name_es": "Mi con segunda suspendida",
+    "notation": "E(sus2)",
+    "display_title": "E(sus2), Mi con segunda suspendida",
+    "frets": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_7sus2",
+    "name_es": "Mi séptima con segunda suspendida",
+    "notation": "E7(sus2)",
+    "display_title": "E7(sus2), Mi séptima con segunda suspendida",
+    "frets": [
+      2,
+      2,
+      0,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_9",
+    "name_es": "Mi novena",
+    "notation": "E9",
+    "display_title": "E9, Mi novena",
+    "frets": [
+      2,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_maj7_sus4",
+    "name_es": "Mi mayor con séptima mayor y cuarta suspendida",
+    "notation": "Emaj7(sus4)",
+    "display_title": "Emaj7(sus4), Mi mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      2,
+      2,
+      3,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_7b9",
+    "name_es": "Mi séptima novena bemol",
+    "notation": "E7(b9)",
+    "display_title": "E7(b9), Mi séptima novena bemol",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_maj7_sharp5",
+    "name_es": "Mi mayor con séptima mayor y quinta aumentada",
+    "notation": "Emaj7(#5)",
+    "display_title": "Emaj7(#5), Mi mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      3,
+      2,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_maj7_add9",
+    "name_es": "Mi mayor con séptima mayor y novena agregada",
+    "notation": "Emaj7(add9)",
+    "display_title": "Emaj7(add9), Mi mayor con séptima mayor y novena agregada",
+    "frets": [
+      2,
+      4,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "e_m7_add9",
+    "name_es": "Mi menor séptima con novena agregada",
+    "notation": "Em7(add9)",
+    "display_title": "Em7(add9), Mi menor séptima con novena agregada",
+    "frets": [
+      2,
+      4,
+      1,
+      3
+    ],
+    "barre_fret": null
   },
   {
     "id": "f_major",
     "name_es": "Fa mayor",
     "notation": "F",
-    "display_title": "F - Fa mayor",
-    "frets": [0, 3, 3, 1],
-    "barre_fret": 3
+    "display_title": "F, Fa mayor",
+    "frets": [
+      0,
+      3,
+      3,
+      1
+    ],
+    "barre_fret": null
   },
   {
     "id": "f_minor",
-    "name_es": "Fa menor - E#m",
+    "name_es": "Fa menor",
     "notation": "Fm",
-    "display_title": "Fm - Fa menor / E#m Mi sostenido menor",
-    "frets": [3, 3, 2, 1],
+    "display_title": "Fm, Fa menor",
+    "frets": [
+      3,
+      3,
+      2,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_aug",
+    "name_es": "Fa aumentado",
+    "notation": "F+",
+    "display_title": "F+, Fa aumentado",
+    "frets": [
+      4,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_dim",
+    "name_es": "Fa disminuido",
+    "notation": "Fº",
+    "display_title": "Fº, Fa disminuido",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "f_dom7",
     "name_es": "Fa séptima dominante",
     "notation": "F7",
-    "display_title": "F7 - Fa séptima dominante",
-    "frets": [3, 3, 3, 4],
-    "barre_fret": 3
+    "display_title": "F7, Fa séptima dominante",
+    "frets": [
+      3,
+      3,
+      3,
+      4
+    ],
+    "barre_fret": null
   },
   {
-    "id": "f_dim7",
-    "name_es": "Fa disminuido 7ma",
-    "notation": "Fdis7",
-    "display_title": "E#7 / Fdis7 - Fa disminuido 7ma",
-    "frets": [2, 3, 2, 3],
+    "id": "f_m7",
+    "name_es": "Fa menor séptima",
+    "notation": "Fm7",
+    "display_title": "Fm7, Fa menor séptima",
+    "frets": [
+      3,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_6",
+    "name_es": "Fa sexta",
+    "notation": "F6",
+    "display_title": "F6, Fa sexta",
+    "frets": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_m6",
+    "name_es": "Fa menor sexta",
+    "notation": "Fm6",
+    "display_title": "Fm6, Fa menor sexta",
+    "frets": [
+      3,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_maj7",
+    "name_es": "Fa mayor con séptima mayor",
+    "notation": "Fmaj7",
+    "display_title": "Fmaj7, Fa mayor con séptima mayor",
+    "frets": [
+      3,
+      3,
+      3,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_m_maj7",
+    "name_es": "Fa menor con séptima mayor",
+    "notation": "Fm(maj7)",
+    "display_title": "Fm(maj7), Fa menor con séptima mayor",
+    "frets": [
+      3,
+      3,
+      2,
+      5
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sus4",
+    "name_es": "Fa con cuarta suspendida",
+    "notation": "F(sus4)",
+    "display_title": "F(sus4), Fa con cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      4,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_7sus4",
+    "name_es": "Fa séptima con cuarta suspendida",
+    "notation": "F7(sus4)",
+    "display_title": "F7(sus4), Fa séptima con cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      4,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_7b5",
+    "name_es": "Fa séptima con quinta bemol o disminuida",
+    "notation": "F7(b5)",
+    "display_title": "F7(b5), Fa séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      3,
+      4
+    ],
     "barre_fret": null
   },
   {
     "id": "f_m7b5",
-    "name_es": "Fa menor 7ma (b5)",
+    "name_es": "Fa menor séptima con quinta bemol o disminuida",
     "notation": "Fm7(b5)",
-    "display_title": "Fm7(b5) - Fa menor 7ma (b5)",
-    "frets": [2, 3, 2, 4],
-    "barre_fret": 4
+    "display_title": "Fm7(b5), Fa menor séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_7sharp5",
+    "name_es": "Fa séptima con quinta aumentada",
+    "notation": "F7(#5)",
+    "display_title": "F7(#5), Fa séptima con quinta aumentada",
+    "frets": [
+      4,
+      3,
+      3,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_add9",
+    "name_es": "Fa mayor con novena agregada",
+    "notation": "F(add9)",
+    "display_title": "F(add9), Fa mayor con novena agregada",
+    "frets": [
+      0,
+      3,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_m_add9",
+    "name_es": "Fa menor con novena agregada",
+    "notation": "Fm(add9)",
+    "display_title": "Fm(add9), Fa menor con novena agregada",
+    "frets": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_sus2",
+    "name_es": "Fa con segunda suspendida",
+    "notation": "F(sus2)",
+    "display_title": "F(sus2), Fa con segunda suspendida",
+    "frets": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_7sus2",
+    "name_es": "Fa séptima con segunda suspendida",
+    "notation": "F7(sus2)",
+    "display_title": "F7(sus2), Fa séptima con segunda suspendida",
+    "frets": [
+      3,
+      3,
+      1,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_9",
+    "name_es": "Fa novena",
+    "notation": "F9",
+    "display_title": "F9, Fa novena",
+    "frets": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_maj7_sus4",
+    "name_es": "Fa mayor con séptima mayor y cuarta suspendida",
+    "notation": "Fmaj7(sus4)",
+    "display_title": "Fmaj7(sus4), Fa mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      4,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_7b9",
+    "name_es": "Fa séptima novena bemol",
+    "notation": "F7(b9)",
+    "display_title": "F7(b9), Fa séptima novena bemol",
+    "frets": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_maj7_sharp5",
+    "name_es": "Fa mayor con séptima mayor y quinta aumentada",
+    "notation": "Fmaj7(#5)",
+    "display_title": "Fmaj7(#5), Fa mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      4,
+      3,
+      3,
+      5
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_maj7_add9",
+    "name_es": "Fa mayor con séptima mayor y novena agregada",
+    "notation": "Fmaj7(add9)",
+    "display_title": "Fmaj7(add9), Fa mayor con séptima mayor y novena agregada",
+    "frets": [
+      0,
+      2,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_m7_add9",
+    "name_es": "Fa menor séptima con novena agregada",
+    "notation": "Fm7(add9)",
+    "display_title": "Fm7(add9), Fa menor séptima con novena agregada",
+    "frets": [
+      3,
+      3,
+      1,
+      4
+    ],
+    "barre_fret": null
   },
   {
     "id": "f_sharp_major",
     "name_es": "Fa sostenido mayor / Solb mayor",
     "notation": "F# / Gb",
-    "display_title": "Gb - Solb mayor / F# - Fa# mayor",
-    "frets": [4, 4, 4, 2],
-    "barre_fret": 4
+    "display_title": "F# / Gb, Fa sostenido mayor / Solb mayor",
+    "frets": [
+      4,
+      4,
+      4,
+      2
+    ],
+    "barre_fret": null
   },
   {
     "id": "f_sharp_minor",
-    "name_es": "Fa sostenido menor",
-    "notation": "F#m",
-    "display_title": "F#m - Fa# menor",
-    "frets": [0, 4, 3, 2],
+    "name_es": "Fa sostenido menor / Solb menor",
+    "notation": "F#m / Gbm",
+    "display_title": "F#m / Gbm, Fa sostenido menor / Solb menor",
+    "frets": [
+      0,
+      4,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_aug",
+    "name_es": "Fa sostenido aumentado / Solb aumentado",
+    "notation": "F#+ / Gb+",
+    "display_title": "F#+ / Gb+, Fa sostenido aumentado / Solb aumentado",
+    "frets": [
+      1,
+      0,
+      0,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_dim",
+    "name_es": "Fa sostenido disminuido / Solb disminuido",
+    "notation": "F#º / Gbº",
+    "display_title": "F#º / Gbº, Fa sostenido disminuido / Solb disminuido",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
     "barre_fret": null
   },
   {
     "id": "f_sharp_dom7",
-    "name_es": "Fa sostenido 7ma",
-    "notation": "F#7 / C#7",
-    "display_title": "F#7 - Fa# séptima dominante",
-    "frets": [1, 2, 0, 2],
-    "barre_fret": 4
+    "name_es": "Fa sostenido séptima dominante / Solb séptima dominante",
+    "notation": "F#7 / Gb7",
+    "display_title": "F#7 / Gb7, Fa sostenido séptima dominante / Solb séptima dominante",
+    "frets": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "barre_fret": null
   },
   {
-    "id": "f_sharp_dim7",
-    "name_es": "Fa sostenido disminuido 7ma",
-    "notation": "F#º7",
-    "display_title": "F#º7 - Fa# disminuido 7ma",
-    "frets": [0, 1, 0, 1],
+    "id": "f_sharp_m7",
+    "name_es": "Fa sostenido menor séptima / Solb menor séptima",
+    "notation": "F#m7 / Gbm7",
+    "display_title": "F#m7 / Gbm7, Fa sostenido menor séptima / Solb menor séptima",
+    "frets": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_6",
+    "name_es": "Fa sostenido sexta / Solb sexta",
+    "notation": "F#6 / Gb6",
+    "display_title": "F#6 / Gb6, Fa sostenido sexta / Solb sexta",
+    "frets": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_m6",
+    "name_es": "Fa sostenido menor sexta / Solb menor sexta",
+    "notation": "F#m6 / Gbm6",
+    "display_title": "F#m6 / Gbm6, Fa sostenido menor sexta / Solb menor sexta",
+    "frets": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_maj7",
+    "name_es": "Fa sostenido mayor con séptima mayor / Solb mayor con séptima mayor",
+    "notation": "F#maj7 / Gbmaj7",
+    "display_title": "F#maj7 / Gbmaj7, Fa sostenido mayor con séptima mayor / Solb mayor con séptima mayor",
+    "frets": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_m_maj7",
+    "name_es": "Fa sostenido menor con séptima mayor / Solb menor con séptima mayor",
+    "notation": "F#m(maj7) / Gbm(maj7)",
+    "display_title": "F#m(maj7) / Gbm(maj7), Fa sostenido menor con séptima mayor / Solb menor con séptima mayor",
+    "frets": [
+      0,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_sus4",
+    "name_es": "Fa sostenido con cuarta suspendida / Solb con cuarta suspendida",
+    "notation": "F#(sus4) / Gb(sus4)",
+    "display_title": "F#(sus4) / Gb(sus4), Fa sostenido con cuarta suspendida / Solb con cuarta suspendida",
+    "frets": [
+      2,
+      4,
+      5,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_sharp_7sus4",
+    "name_es": "Fa sostenido séptima con cuarta suspendida / Solb séptima con cuarta suspendida",
+    "notation": "F#7(sus4) / Gb7(sus4)",
+    "display_title": "F#7(sus4) / Gb7(sus4), Fa sostenido séptima con cuarta suspendida / Solb séptima con cuarta suspendida",
+    "frets": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_7b5",
+    "name_es": "Fa sostenido séptima con quinta bemol o disminuida / Solb séptima con quinta bemol o disminuida",
+    "notation": "F#7(b5) / Gb7(b5)",
+    "display_title": "F#7(b5) / Gb7(b5), Fa sostenido séptima con quinta bemol o disminuida / Solb séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      0,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "f_sharp_m7b5",
-    "name_es": "Fa sostenido menor 7ma (b5)",
-    "notation": "F#m7(b5)",
-    "display_title": "F#m7(b5) - Fa# menor 7ma (b5)",
-    "frets": [0, 2, 0, 1],
+    "name_es": "Fa sostenido menor séptima con quinta bemol o disminuida / Solb menor séptima con quinta bemol o disminuida",
+    "notation": "F#m7(b5) / Gbm7(b5)",
+    "display_title": "F#m7(b5) / Gbm7(b5), Fa sostenido menor séptima con quinta bemol o disminuida / Solb menor séptima con quinta bemol o disminuida",
+    "frets": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_7sharp5",
+    "name_es": "Fa sostenido séptima con quinta aumentada / Solb séptima con quinta aumentada",
+    "notation": "F#7(#5) / Gb7(#5)",
+    "display_title": "F#7(#5) / Gb7(#5), Fa sostenido séptima con quinta aumentada / Solb séptima con quinta aumentada",
+    "frets": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_add9",
+    "name_es": "Fa sostenido mayor con novena agregada / Solb mayor con novena agregada",
+    "notation": "F#(add9) / Gb(add9)",
+    "display_title": "F#(add9) / Gb(add9), Fa sostenido mayor con novena agregada / Solb mayor con novena agregada",
+    "frets": [
+      1,
+      4,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_m_add9",
+    "name_es": "Fa sostenido menor con novena agregada / Solb menor con novena agregada",
+    "notation": "F#m(add9) / Gbm(add9)",
+    "display_title": "F#m(add9) / Gbm(add9), Fa sostenido menor con novena agregada / Solb menor con novena agregada",
+    "frets": [
+      0,
+      4,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_sharp_sus2",
+    "name_es": "Fa sostenido con segunda suspendida / Solb con segunda suspendida",
+    "notation": "F#(sus2) / Gb(sus2)",
+    "display_title": "F#(sus2) / Gb(sus2), Fa sostenido(sus2) / Solb(sus2)",
+    "frets": [
+      4,
+      4,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "f_sharp_7sus2",
+    "name_es": "Fa sostenido séptima con segunda suspendida / Solb séptima con segunda suspendida",
+    "notation": "F#7(sus2) / Gb7(sus2)",
+    "display_title": "F#7(sus2) / Gb7(sus2), Fa sostenido séptima con segunda suspendida / Solb séptima con segunda suspendida",
+    "frets": [
+      4,
+      4,
+      2,
+      5
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_9",
+    "name_es": "Fa sostenido novena / Solb novena",
+    "notation": "F#9 / Gb9",
+    "display_title": "F#9 / Gb9, Fa sostenido novena / Solb novena",
+    "frets": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_maj7_sus4",
+    "name_es": "Fa sostenido mayor con séptima mayor y cuarta suspendida / Solb mayor con séptima mayor y cuarta suspendida",
+    "notation": "F#maj7(sus4) / Gbmaj7(sus4)",
+    "display_title": "F#maj7(sus4) / Gbmaj7(sus4), Fa sostenido mayor con séptima mayor y cuarta suspendida / Solb mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      2,
+      3,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_7b9",
+    "name_es": "Fa sostenido séptima novena bemol / Solb séptima novena bemol",
+    "notation": "F#7(b9) / Gb7(b9)",
+    "display_title": "F#7(b9) / Gb7(b9), Fa sostenido séptima novena bemol / Solb séptima novena bemol",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_maj7_sharp5",
+    "name_es": "Fa sostenido mayor con séptima mayor y quinta aumentada / Solb mayor con séptima mayor y quinta aumentada",
+    "notation": "F#maj7(#5) / Gbmaj7(#5)",
+    "display_title": "F#maj7(#5) / Gbmaj7(#5), Fa sostenido mayor con séptima mayor y quinta aumentada / Solb mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      1,
+      3,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_maj7_add9",
+    "name_es": "Fa sostenido mayor con séptima mayor y novena agregada / Solb mayor con séptima mayor y novena agregada",
+    "notation": "F#maj7(add9) / Gbmaj7(add9)",
+    "display_title": "F#maj7(add9) / Gbmaj7(add9), Fa sostenido mayor con séptima mayor y novena agregada / Solb mayor con séptima mayor y novena agregada",
+    "frets": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "f_sharp_m7_add9",
+    "name_es": "Fa sostenido menor séptima con novena agregada / Solb menor séptima con novena agregada",
+    "notation": "F#m7(add9) / Gbm7(add9)",
+    "display_title": "F#m7(add9) / Gbm7(add9), Fa sostenido menor séptima con novena agregada / Solb menor séptima con novena agregada",
+    "frets": [
+      0,
+      2,
+      2,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "g_major",
     "name_es": "Sol mayor",
     "notation": "G",
-    "display_title": "G - Sol mayor",
-    "frets": [2, 0, 1, 0],
+    "display_title": "G, Sol mayor",
+    "frets": [
+      2,
+      0,
+      1,
+      0
+    ],
     "barre_fret": null
   },
   {
     "id": "g_minor",
     "name_es": "Sol menor",
     "notation": "Gm",
-    "display_title": "Gm - Sol menor",
-    "frets": [1, 0, 1, 3],
+    "display_title": "Gm, Sol menor",
+    "frets": [
+      1,
+      0,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_aug",
+    "name_es": "Sol aumentado",
+    "notation": "G+",
+    "display_title": "G+, Sol aumentado",
+    "frets": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_dim",
+    "name_es": "Sol disminuido",
+    "notation": "Gº",
+    "display_title": "Gº, Sol disminuido",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "g_dom7",
     "name_es": "Sol séptima dominante",
     "notation": "G7",
-    "display_title": "G7 - Sol séptima dominante",
-    "frets": [2, 3, 1, 3],
+    "display_title": "G7, Sol séptima dominante",
+    "frets": [
+      2,
+      3,
+      1,
+      4
+    ],
     "barre_fret": null
   },
   {
-    "id": "g_dim7",
-    "name_es": "Sol disminuido 7ma",
-    "notation": "Gº7",
-    "display_title": "Gº7 - Sol disminuido 7ma",
-    "frets": [1, 2, 1, 2],
+    "id": "g_m7",
+    "name_es": "Sol menor séptima",
+    "notation": "Gm7",
+    "display_title": "Gm7, Sol menor séptima",
+    "frets": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_6",
+    "name_es": "Sol sexta",
+    "notation": "G6",
+    "display_title": "G6, Sol sexta",
+    "frets": [
+      2,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_m6",
+    "name_es": "Sol menor sexta",
+    "notation": "Gm6",
+    "display_title": "Gm6, Sol menor sexta",
+    "frets": [
+      1,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_maj7",
+    "name_es": "Sol mayor con séptima mayor",
+    "notation": "Gmaj7",
+    "display_title": "Gmaj7, Sol mayor con séptima mayor",
+    "frets": [
+      2,
+      4,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_m_maj7",
+    "name_es": "Sol menor con séptima mayor",
+    "notation": "Gm(maj7)",
+    "display_title": "Gm(maj7), Sol menor con séptima mayor",
+    "frets": [
+      1,
+      0,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sus4",
+    "name_es": "Sol con cuarta suspendida",
+    "notation": "G(sus4)",
+    "display_title": "G(sus4), Sol con cuarta suspendida",
+    "frets": [
+      3,
+      0,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_7sus4",
+    "name_es": "Sol séptima con cuarta suspendida",
+    "notation": "G7(sus4)",
+    "display_title": "G7(sus4), Sol séptima con cuarta suspendida",
+    "frets": [
+      3,
+      3,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_7b5",
+    "name_es": "Sol séptima con quinta bemol o disminuida",
+    "notation": "G7(b5)",
+    "display_title": "G7(b5), Sol séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      1,
+      2
+    ],
     "barre_fret": null
   },
   {
     "id": "g_m7b5",
-    "name_es": "Sol menor 7ma (b5)",
+    "name_es": "Sol menor séptima con quinta bemol o disminuida",
     "notation": "Gm7(b5)",
-    "display_title": "Gm7(b5) - Sol menor 7ma (b5)",
-    "frets": [1, 3, 1, 2],
+    "display_title": "Gm7(b5), Sol menor séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      3,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_7sharp5",
+    "name_es": "Sol séptima con quinta aumentada",
+    "notation": "G7(#5)",
+    "display_title": "G7(#5), Sol séptima con quinta aumentada",
+    "frets": [
+      2,
+      3,
+      1,
+      4
+    ],
     "barre_fret": null
   },
   {
-    "id": "ab_major",
-    "name_es": "La bemol mayor / Sol# mayor",
-    "notation": "Ab",
-    "display_title": "Ab - Lab mayor / G# - Sol# mayor",
-    "frets": [3, 1, 2, 1],
+    "id": "g_add9",
+    "name_es": "Sol mayor con novena agregada",
+    "notation": "G(add9)",
+    "display_title": "G(add9), Sol mayor con novena agregada",
+    "frets": [
+      0,
+      0,
+      1,
+      0
+    ],
     "barre_fret": null
   },
   {
-    "id": "ab_minor",
-    "name_es": "La bemol menor / Sol# menor",
-    "notation": "Abm / G#m",
-    "display_title": "G#m - Sol# menor / Abm - Lab menor",
-    "frets": [2, 1, 2, 0],
+    "id": "g_m_add9",
+    "name_es": "Sol menor con novena agregada",
+    "notation": "Gm(add9)",
+    "display_title": "Gm(add9), Sol menor con novena agregada",
+    "frets": [
+      1,
+      0,
+      3,
+      3
+    ],
     "barre_fret": null
   },
   {
-    "id": "ab_dom7",
-    "name_es": "La bemol 7ma / Sol# 7ma",
-    "notation": "Ab7 / G#7",
-    "display_title": "G#7 Sol sostenido 7/ Ab7 - Lab séptima",
-    "frets": [3, 4, 2, 4],
+    "id": "g_sus2",
+    "name_es": "Sol con segunda suspendida",
+    "notation": "G(sus2)",
+    "display_title": "G(sus2), Sol con segunda suspendida",
+    "frets": [
+      0,
+      0,
+      1,
+      3
+    ],
     "barre_fret": null
   },
   {
-    "id": "ab_dim7",
-    "name_es": "Sol sostenido disminuido 7ma",
-    "notation": "G#º7",
-    "display_title": "G#º7 - Sol# disminuido 7ma",
-    "frets": [2, 3, 2, 3],
+    "id": "g_7sus2",
+    "name_es": "Sol séptima con segunda suspendida",
+    "notation": "G7(sus2)",
+    "display_title": "G7(sus2), Sol séptima con segunda suspendida",
+    "frets": [
+      0,
+      3,
+      1,
+      3
+    ],
     "barre_fret": null
   },
   {
-    "id": "ab_m7b5",
-    "name_es": "Sol sostenido menor 7ma (b5)",
-    "notation": "G#m7(b5)",
-    "display_title": "G#m7(b5) - Sol# menor 7ma (b5)",
-    "frets": [2, 4, 2, 3],
+    "id": "g_9",
+    "name_es": "Sol novena",
+    "notation": "G9",
+    "display_title": "G9, Sol novena",
+    "frets": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_maj7_sus4",
+    "name_es": "Sol mayor con séptima mayor y cuarta suspendida",
+    "notation": "Gmaj7(sus4)",
+    "display_title": "Gmaj7(sus4), Sol mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      3,
+      4,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_7b9",
+    "name_es": "Sol séptima novena bemol",
+    "notation": "G7(b9)",
+    "display_title": "G7(b9), Sol séptima novena bemol",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_maj7_sharp5",
+    "name_es": "Sol mayor con séptima mayor y quinta aumentada",
+    "notation": "Gmaj7(#5)",
+    "display_title": "Gmaj7(#5), Sol mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      2,
+      4,
+      1,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_maj7_add9",
+    "name_es": "Sol mayor con séptima mayor y novena agregada",
+    "notation": "Gmaj7(add9)",
+    "display_title": "Gmaj7(add9), Sol mayor con séptima mayor y novena agregada",
+    "frets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_m7_add9",
+    "name_es": "Sol menor séptima con novena agregada",
+    "notation": "Gm7(add9)",
+    "display_title": "Gm7(add9), Sol menor séptima con novena agregada",
+    "frets": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_major",
+    "name_es": "Sol sostenido mayor / Lab mayor",
+    "notation": "G# / Ab",
+    "display_title": "G# / Ab, Sol sostenido mayor / Lab mayor",
+    "frets": [
+      3,
+      1,
+      2,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_minor",
+    "name_es": "Sol sostenido menor / Lab menor",
+    "notation": "G#m / Abm",
+    "display_title": "G#m / Abm, Sol sostenido menor / Lab menor",
+    "frets": [
+      2,
+      1,
+      2,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_aug",
+    "name_es": "Sol sostenido aumentado / Lab aumentado",
+    "notation": "G#+ / Ab+",
+    "display_title": "G#+ / Ab+, Sol sostenido aumentado / Lab aumentado",
+    "frets": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_dim",
+    "name_es": "Sol sostenido disminuido / Lab disminuido",
+    "notation": "G#º / Abº",
+    "display_title": "G#º / Abº, Sol sostenido disminuido / Lab disminuido",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_dom7",
+    "name_es": "Sol sostenido séptima dominante / Lab séptima dominante",
+    "notation": "G#7 / Ab7",
+    "display_title": "G#7 / Ab7, Sol sostenido séptima dominante / Lab séptima dominante",
+    "frets": [
+      3,
+      4,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_m7",
+    "name_es": "Sol sostenido menor séptima / Lab menor séptima",
+    "notation": "G#m7 / Abm7",
+    "display_title": "G#m7 / Abm7, Sol sostenido menor séptima / Lab menor séptima",
+    "frets": [
+      2,
+      4,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_6",
+    "name_es": "Sol sostenido sexta / Lab sexta",
+    "notation": "G#6 / Ab6",
+    "display_title": "G#6 / Ab6, Sol sostenido sexta / Lab sexta",
+    "frets": [
+      3,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_m6",
+    "name_es": "Sol sostenido menor sexta / Lab menor sexta",
+    "notation": "G#m6 / Abm6",
+    "display_title": "G#m6 / Abm6, Sol sostenido menor sexta / Lab menor sexta",
+    "frets": [
+      2,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_maj7",
+    "name_es": "Sol sostenido mayor con séptima mayor / Lab mayor con séptima mayor",
+    "notation": "G#maj7 / Abmaj7",
+    "display_title": "G#maj7 / Abmaj7, Sol sostenido mayor con séptima mayor / Lab mayor con séptima mayor",
+    "frets": [
+      3,
+      5,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_m_maj7",
+    "name_es": "Sol sostenido menor con séptima mayor / Lab menor con séptima mayor",
+    "notation": "G#m(maj7) / Abm(maj7)",
+    "display_title": "G#m(maj7) / Abm(maj7), Sol sostenido menor con séptima mayor / Lab menor con séptima mayor",
+    "frets": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_sus4",
+    "name_es": "Sol sostenido con cuarta suspendida / Lab con cuarta suspendida",
+    "notation": "G#(sus4) / Ab(sus4)",
+    "display_title": "G#(sus4) / Ab(sus4), Sol sostenido con cuarta suspendida / Lab con cuarta suspendida",
+    "frets": [
+      4,
+      1,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_7sus4",
+    "name_es": "Sol sostenido séptima con cuarta suspendida / Lab séptima con cuarta suspendida",
+    "notation": "G#7(sus4) / Ab7(sus4)",
+    "display_title": "G#7(sus4) / Ab7(sus4), Sol sostenido séptima con cuarta suspendida / Lab séptima con cuarta suspendida",
+    "frets": [
+      4,
+      4,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_7b5",
+    "name_es": "Sol sostenido séptima con quinta bemol o disminuida / Lab séptima con quinta bemol o disminuida",
+    "notation": "G#7(b5) / Ab7(b5)",
+    "display_title": "G#7(b5) / Ab7(b5), Sol sostenido séptima con quinta bemol o disminuida / Lab séptima con quinta bemol o disminuida",
+    "frets": [
+      3,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_m7b5",
+    "name_es": "Sol sostenido menor séptima con quinta bemol o disminuida / Lab menor séptima con quinta bemol o disminuida",
+    "notation": "G#m7(b5) / Abm7(b5)",
+    "display_title": "G#m7(b5) / Abm7(b5), Sol sostenido menor séptima con quinta bemol o disminuida / Lab menor séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_7sharp5",
+    "name_es": "Sol sostenido séptima con quinta aumentada / Lab séptima con quinta aumentada",
+    "notation": "G#7(#5) / Ab7(#5)",
+    "display_title": "G#7(#5) / Ab7(#5), Sol sostenido séptima con quinta aumentada / Lab séptima con quinta aumentada",
+    "frets": [
+      3,
+      4,
+      2,
+      5
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_add9",
+    "name_es": "Sol sostenido mayor con novena agregada / Lab mayor con novena agregada",
+    "notation": "G#(add9) / Ab(add9)",
+    "display_title": "G#(add9) / Ab(add9), Sol sostenido mayor con novena agregada / Lab mayor con novena agregada",
+    "frets": [
+      1,
+      1,
+      2,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_m_add9",
+    "name_es": "Sol sostenido menor con novena agregada / Lab menor con novena agregada",
+    "notation": "G#m(add9) / Abm(add9)",
+    "display_title": "G#m(add9) / Abm(add9), Sol sostenido menor con novena agregada / Lab menor con novena agregada",
+    "frets": [
+      1,
+      1,
+      2,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_sus2",
+    "name_es": "Sol sostenido con segunda suspendida / Lab con segunda suspendida",
+    "notation": "G#(sus2) / Ab(sus2)",
+    "display_title": "G#(sus2) / Ab(sus2), Sol sostenido con segunda suspendida / Lab con segunda suspendida",
+    "frets": [
+      1,
+      1,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_7sus2",
+    "name_es": "Sol sostenido séptima con segunda suspendida / Lab séptima con segunda suspendida",
+    "notation": "G#7(sus2) / Ab7(sus2)",
+    "display_title": "G#7(sus2) / Ab7(sus2), Sol sostenido séptima con segunda suspendida / Lab séptima con segunda suspendida",
+    "frets": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_9",
+    "name_es": "Sol sostenido novena / Lab novena",
+    "notation": "G#9 / Ab9",
+    "display_title": "G#9 / Ab9, Sol sostenido novena / Lab novena",
+    "frets": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_maj7_sus4",
+    "name_es": "Sol sostenido mayor con séptima mayor y cuarta suspendida / Lab mayor con séptima mayor y cuarta suspendida",
+    "notation": "G#maj7(sus4) / Abmaj7(sus4)",
+    "display_title": "G#maj7(sus4) / Abmaj7(sus4), Sol sostenido mayor con séptima mayor y cuarta suspendida / Lab mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      4,
+      5,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_7b9",
+    "name_es": "Sol sostenido séptima novena bemol / Lab séptima novena bemol",
+    "notation": "G#7(b9) / Ab7(b9)",
+    "display_title": "G#7(b9) / Ab7(b9), Sol sostenido séptima novena bemol / Lab séptima novena bemol",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_maj7_sharp5",
+    "name_es": "Sol sostenido mayor con séptima mayor y quinta aumentada / Lab mayor con séptima mayor y quinta aumentada",
+    "notation": "G#maj7(#5) / Abmaj7(#5)",
+    "display_title": "G#maj7(#5) / Abmaj7(#5), Sol sostenido mayor con séptima mayor y quinta aumentada / Lab mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      3,
+      5,
+      2,
+      5
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "g_sharp_maj7_add9",
+    "name_es": "Sol sostenido mayor con séptima mayor y novena agregada / Lab mayor con séptima mayor y novena agregada",
+    "notation": "G#maj7(add9) / Abmaj7(add9)",
+    "display_title": "G#maj7(add9) / Abmaj7(add9), Sol sostenido mayor con séptima mayor y novena agregada / Lab mayor con séptima mayor y novena agregada",
+    "frets": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "g_sharp_m7_add9",
+    "name_es": "Sol sostenido menor séptima con novena agregada / Lab menor séptima con novena agregada",
+    "notation": "G#m7(add9) / Abm7(add9)",
+    "display_title": "G#m7(add9) / Abm7(add9), Sol sostenido menor séptima con novena agregada / Lab menor séptima con novena agregada",
+    "frets": [
+      1,
+      1,
+      0,
+      0
+    ],
     "barre_fret": null
   },
   {
     "id": "a_major",
     "name_es": "La mayor",
     "notation": "A",
-    "display_title": "A - La mayor",
-    "frets": [0, 2, 3, 2],
-    "barre_fret": 2
+    "display_title": "A, La mayor",
+    "frets": [
+      0,
+      2,
+      3,
+      2
+    ],
+    "barre_fret": null
   },
   {
     "id": "a_minor",
     "name_es": "La menor",
     "notation": "Am",
-    "display_title": "Am - La menor",
-    "frets": [0, 2, 3, 1],
-    "barre_fret": 2
+    "display_title": "Am, La menor",
+    "frets": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_aug",
+    "name_es": "La aumentado",
+    "notation": "A+",
+    "display_title": "A+, La aumentado",
+    "frets": [
+      0,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_dim",
+    "name_es": "La disminuido",
+    "notation": "Aº",
+    "display_title": "Aº, La disminuido",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
   },
   {
     "id": "a_dom7",
     "name_es": "La séptima dominante",
     "notation": "A7",
-    "display_title": "A7 - La séptima",
-    "frets": [0, 2, 1, 2],
-    "barre_fret": 2
+    "display_title": "A7, La séptima dominante",
+    "frets": [
+      0,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
   },
   {
-    "id": "a_dim7",
-    "name_es": "La disminuido 7ma",
-    "notation": "Aº7",
-    "display_title": "Aº7 - La disminuido 7ma",
-    "frets": [0, 1, 0, 1],
+    "id": "a_m7",
+    "name_es": "La menor séptima",
+    "notation": "Am7",
+    "display_title": "Am7, La menor séptima",
+    "frets": [
+      0,
+      2,
+      1,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_6",
+    "name_es": "La sexta",
+    "notation": "A6",
+    "display_title": "A6, La sexta",
+    "frets": [
+      0,
+      2,
+      0,
+      2
+    ],
     "barre_fret": null
+  },
+  {
+    "id": "a_m6",
+    "name_es": "La menor sexta",
+    "notation": "Am6",
+    "display_title": "Am6, La menor sexta",
+    "frets": [
+      0,
+      2,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_maj7",
+    "name_es": "La mayor con séptima mayor",
+    "notation": "Amaj7",
+    "display_title": "Amaj7, La mayor con séptima mayor",
+    "frets": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_m_maj7",
+    "name_es": "La menor con séptima mayor",
+    "notation": "Am(maj7)",
+    "display_title": "Am(maj7), La menor con séptima mayor",
+    "frets": [
+      0,
+      2,
+      2,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sus4",
+    "name_es": "La con cuarta suspendida",
+    "notation": "A(sus4)",
+    "display_title": "A(sus4), La con cuarta suspendida",
+    "frets": [
+      0,
+      2,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_7sus4",
+    "name_es": "La séptima con cuarta suspendida",
+    "notation": "A7(sus4)",
+    "display_title": "A7(sus4), La séptima con cuarta suspendida",
+    "frets": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_7b5",
+    "name_es": "La séptima con quinta bemol o disminuida",
+    "notation": "A7(b5)",
+    "display_title": "A7(b5), La séptima con quinta bemol o disminuida",
+    "frets": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "barre_fret": 1
   },
   {
     "id": "a_m7b5",
-    "name_es": "La menor 7ma (b5)",
+    "name_es": "La menor séptima con quinta bemol o disminuida",
     "notation": "Am7(b5)",
-    "display_title": "Am7(b5) - La menor 7ma (b5)",
-    "frets": [0, 1, 1, 1],
-    "barre_fret": null
-  },
-  {
-    "id": "bb_major",
-    "name_es": "Si bemol mayor",
-    "notation": "Bb",
-    "display_title": "Bb - Si bemol mayor",
-    "frets": [5, 3, 4, 3],
+    "display_title": "Am7(b5), La menor séptima con quinta bemol o disminuida",
+    "frets": [
+      0,
+      1,
+      1,
+      1
+    ],
     "barre_fret": 1
   },
   {
-    "id": "bb_minor",
-    "name_es": "Si bemol menor",
-    "notation": "Bbm",
-    "display_title": "Bbm - Si bemol menor / A#m - La sostenido menor",
-    "frets": [4, 3, 4, 2],
+    "id": "a_7sharp5",
+    "name_es": "La séptima con quinta aumentada",
+    "notation": "A7(#5)",
+    "display_title": "A7(#5), La séptima con quinta aumentada",
+    "frets": [
+      0,
+      3,
+      1,
+      2
+    ],
     "barre_fret": null
   },
   {
-    "id": "bb_dom7",
-    "name_es": "Si bemol 7ma",
-    "notation": "Bb7",
-    "display_title": "Bb7 - Si bemol séptima",
-    "frets": [1, 3, 2, 3],
+    "id": "a_add9",
+    "name_es": "La mayor con novena agregada",
+    "notation": "A(add9)",
+    "display_title": "A(add9), La mayor con novena agregada",
+    "frets": [
+      2,
+      2,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_m_add9",
+    "name_es": "La menor con novena agregada",
+    "notation": "Am(add9)",
+    "display_title": "Am(add9), La menor con novena agregada",
+    "frets": [
+      3,
+      2,
+      3,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sus2",
+    "name_es": "La con segunda suspendida",
+    "notation": "A(sus2)",
+    "display_title": "A(sus2), La con segunda suspendida",
+    "frets": [
+      0,
+      2,
+      3,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_7sus2",
+    "name_es": "La séptima con segunda suspendida",
+    "notation": "A7(sus2)",
+    "display_title": "A7(sus2), La séptima con segunda suspendida",
+    "frets": [
+      0,
+      2,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_9",
+    "name_es": "La novena",
+    "notation": "A9",
+    "display_title": "A9, La novena",
+    "frets": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_maj7_sus4",
+    "name_es": "La mayor con séptima mayor y cuarta suspendida",
+    "notation": "Amaj7(sus4)",
+    "display_title": "Amaj7(sus4), La mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      0,
+      2,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_7b9",
+    "name_es": "La séptima novena bemol",
+    "notation": "A7(b9)",
+    "display_title": "A7(b9), La séptima novena bemol",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_maj7_sharp5",
+    "name_es": "La mayor con séptima mayor y quinta aumentada",
+    "notation": "Amaj7(#5)",
+    "display_title": "Amaj7(#5), La mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      0,
+      3,
+      2,
+      2
+    ],
     "barre_fret": 1
   },
   {
-    "id": "bb_dim7",
-    "name_es": "La sostenido disminuido 7ma",
-    "notation": "A#º7",
-    "display_title": "A#º7 - La# disminuido 7ma",
-    "frets": [1, 2, 1, 2],
+    "id": "a_maj7_add9",
+    "name_es": "La mayor con séptima mayor y novena agregada",
+    "notation": "Amaj7(add9)",
+    "display_title": "Amaj7(add9), La mayor con séptima mayor y novena agregada",
+    "frets": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_m7_add9",
+    "name_es": "La menor séptima con novena agregada",
+    "notation": "Am7(add9)",
+    "display_title": "Am7(add9), La menor séptima con novena agregada",
+    "frets": [
+      3,
+      2,
+      1,
+      0
+    ],
     "barre_fret": null
   },
   {
-    "id": "bb_m7b5",
-    "name_es": "Si bemol menor 7ma (b5)",
-    "notation": "Bbm7(b5)",
-    "display_title": "Bbm7(b5) - Si bemol menor 7ma (b5)",
-    "frets": [4, 3, 5, 4],
+    "id": "a_sharp_major",
+    "name_es": "La sostenido mayor / Sib mayor",
+    "notation": "A# / Bb",
+    "display_title": "A# / Bb, La sostenido mayor / Sib mayor",
+    "frets": [
+      1,
+      3,
+      4,
+      3
+    ],
     "barre_fret": null
+  },
+  {
+    "id": "a_sharp_minor",
+    "name_es": "La sostenido menor / Sib menor",
+    "notation": "A#m / Bbm",
+    "display_title": "A#m / Bbm, La sostenido menor / Sib menor",
+    "frets": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_aug",
+    "name_es": "La sostenido aumetado / Sib aumentado",
+    "notation": "A#+ / Bb+",
+    "display_title": "A#+ / Bb+, La sostenido aumentado / Sib aumentado",
+    "frets": [
+      1,
+      0,
+      0,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_dim",
+    "name_es": "La sostenido disminuido / Sib disminuido",
+    "notation": "A#º / Bbº",
+    "display_title": "A#º / Bbº, La sostenido disminuido / Sib disminuido",
+    "frets": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_dom7",
+    "name_es": "La sostenido séptima dominante / Sib séptima dominante",
+    "notation": "A#7 / Bb7",
+    "display_title": "A#7 / Bb7, La sostenido séptima dominante / Sib séptima dominante",
+    "frets": [
+      1,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_m7",
+    "name_es": "La sostenido menor séptima / Sib menor séptima",
+    "notation": "A#m7 / Bbm7",
+    "display_title": "A#m7 / Bbm7, La sostenido menor séptima / Sib menor séptima",
+    "frets": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_6",
+    "name_es": "La sostenido sexta / Sib sexta",
+    "notation": "A#6 / Bb6",
+    "display_title": "A#6 / Bb6, La sostenido sexta / Sib sexta",
+    "frets": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_sharp_m6",
+    "name_es": "La sostenido menor sexta / Sib menor sexta",
+    "notation": "A#m6 / Bbm6",
+    "display_title": "A#m6 / Bbm6, La sostenido menor sexta / Sib menor sexta",
+    "frets": [
+      1,
+      3,
+      1,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_sharp_maj7",
+    "name_es": "La sostenido mayor con séptima mayor / Sib mayor con séptima mayor",
+    "notation": "A#maj7 / Bbmaj7",
+    "display_title": "A#maj7 / Bbmaj7, La sostenido mayor con séptima mayor / Sib mayor con séptima mayor",
+    "frets": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_m_maj7",
+    "name_es": "La sostenido menor con séptima mayor / Sib menor con séptima mayor",
+    "notation": "A#m(maj7) / Bbm(maj7)",
+    "display_title": "A#m(maj7) / Bbm(maj7), La sostenido menor con séptima mayor / Sib menor con séptima mayor",
+    "frets": [
+      1,
+      3,
+      3,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_sus4",
+    "name_es": "La sostenido con cuarta suspendida / Sib con cuarta suspendida",
+    "notation": "A#(sus4) / Bb(sus4)",
+    "display_title": "A#(sus4) / Bb(sus4), La sostenido con cuarta suspendida / Sib con cuarta suspendida",
+    "frets": [
+      1,
+      3,
+      4,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_7sus4",
+    "name_es": "La sostenido séptima con cuarta suspendida / Sib séptima con cuarta suspendida",
+    "notation": "A#7(sus4) / Bb7(sus4)",
+    "display_title": "A#7(sus4) / Bb7(sus4), La sostenido séptima con cuarta suspendida / Sib séptima con cuarta suspendida",
+    "frets": [
+      1,
+      3,
+      2,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_7b5",
+    "name_es": "La sostenido séptima con quinta bemol o disminuida / Sib séptima con quinta bemol o disminuida",
+    "notation": "A#7(b5) / Bb7(b5)",
+    "display_title": "A#7(b5) / Bb7(b5), La sostenido séptima con quinta bemol o disminuida / Sib séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_m7b5",
+    "name_es": "La sostenido menor séptima con quinta bemol o disminuida / Sib menor séptima con quinta bemol o disminuida",
+    "notation": "A#m7(b5) / Bbm7(b5)",
+    "display_title": "A#m7(b5) / Bbm7(b5), La sostenido menor séptima con quinta bemol o disminuida / Sib menor séptima con quinta bemol o disminuida",
+    "frets": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_7sharp5",
+    "name_es": "La sostenido séptima con quinta aumentada / Sib séptima con quinta aumentada",
+    "notation": "A#7(#5) / Bb7(#5)",
+    "display_title": "A#7(#5) / Bb7(#5), La sostenido séptima con quinta aumentada / Sib séptima con quinta aumentada",
+    "frets": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_add9",
+    "name_es": "La sostenido mayor con novena agregada / Sib mayor con novena agregada",
+    "notation": "A#(add9) / Bb(add9)",
+    "display_title": "A#(add9) / Bb(add9), La sostenido mayor con novena agregada / Sib mayor con novena agregada",
+    "frets": [
+      3,
+      3,
+      4,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_m_add9",
+    "name_es": "La sostenido menor con novena agregada/ Sib menor con novena agregada",
+    "notation": "A#m(add9) / Bbm(add9)",
+    "display_title": "A#m(add9) / Bbm(add9), La sostenido menor con novena agregada / Sib menor con novena agregada",
+    "frets": [
+      4,
+      3,
+      4,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_sus2",
+    "name_es": "La sostenido con segunda suspendida / Sib con segunda suspendida",
+    "notation": "A#(sus2) / Bb(sus2)",
+    "display_title": "A#(sus2) / Bb(sus2), La sostenido con segunda suspendida / Sib con segunda suspendida",
+    "frets": [
+      1,
+      3,
+      4,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_sharp_7sus2",
+    "name_es": "La sostenido séptima con segunda suspendida / Sib séptima con segunda suspendida",
+    "notation": "A#7(sus2) / Bb7(sus2)",
+    "display_title": "A#7(sus2) / Bb7(sus2), La sostenido séptima con segunda suspendida / Sib séptima con segunda suspendida",
+    "frets": [
+      1,
+      3,
+      2,
+      1
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_sharp_9",
+    "name_es": "La sostenido novena / Sib novena",
+    "notation": "A#9 / Bb9",
+    "display_title": "A#9 / Bb9, La sostenido novena / Sib novena",
+    "frets": [
+      3,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_maj7_sus4",
+    "name_es": "La sostenido mayor con séptima mayor y cuarta suspendida / Sib mayor con séptima mayor y cuarta suspendida",
+    "notation": "A#maj7(sus4) / Bbmaj7(sus4)",
+    "display_title": "A#maj7(sus4) / Bbmaj7(sus4), La sostenido mayor con séptima mayor y cuarta suspendida / Sib mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      1,
+      3,
+      3,
+      4
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_7b9",
+    "name_es": "La sostenido séptima novena bemol / Sib séptima novena bemol",
+    "notation": "A#7(b9) / Bb7(b9)",
+    "display_title": "A#7(b9) / Bb7(b9), La sostenido séptima novena bemol / Sib séptima novena bemol",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_maj7_sharp5",
+    "name_es": "La sostenido mayor con séptima mayor y quinta aumentada / Sib mayor con séptima mayor y quinta aumentada",
+    "notation": "A#maj7(#5) / Bbmaj7(#5)",
+    "display_title": "A#maj7(#5) / Bbmaj7(#5), La sostenido mayor con séptima mayor y quinta aumentada / Sib mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "a_sharp_maj7_add9",
+    "name_es": "La sostenido con séptima mayor y novena agregada / Sib mayor con séptima mayor y novena agregada",
+    "notation": "A#maj7(add9) / Bbmaj7(add9)",
+    "display_title": "A#maj7(add9) / Bbmaj7(add9), La sostenido con séptima mayor y novena agregada / Sib mayor con séptima mayor y novena agregada",
+    "frets": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "a_sharp_m7_add9",
+    "name_es": "La sostenido menor séptima con novena agregada / Sib menor séptima con novena agregada",
+    "notation": "A#m7(add9) / Bbm7(add9)",
+    "display_title": "A#m7(add9) / Bbm7(add9), La sostenido menor séptima con novena agregada / Sib menor séptima con novena agregada",
+    "frets": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "barre_fret": 1
   },
   {
     "id": "b_major",
     "name_es": "Si mayor",
     "notation": "B",
-    "display_title": "B - Si mayor",
-    "frets": [2, 1, 0, 0],
-    "barre_fret": 2
+    "display_title": "B, Si mayor",
+    "frets": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "barre_fret": null
   },
   {
     "id": "b_minor",
     "name_es": "Si menor",
     "notation": "Bm",
-    "display_title": "Bm - Si menor",
-    "frets": [2, 0, 0, 0],
+    "display_title": "Bm, Si menor",
+    "frets": [
+      2,
+      0,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_aug",
+    "name_es": "Si aumentado",
+    "notation": "B+",
+    "display_title": "B+, Si aumentado",
+    "frets": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_dim",
+    "name_es": "Si disminuido",
+    "notation": "Bº",
+    "display_title": "Bº, Si disminuido",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
     "barre_fret": null
   },
   {
     "id": "b_dom7",
     "name_es": "Si séptima dominante",
     "notation": "B7",
-    "display_title": "B7 - Si séptima",
-    "frets": [0, 1, 0, 0],
-    "barre_fret": 2
+    "display_title": "B7, Si séptima dominante",
+    "frets": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "barre_fret": null
   },
   {
-    "id": "b_dim7",
-    "name_es": "Si disminuido 7ma",
-    "notation": "Bº7",
-    "display_title": "Bº7 - Si disminuido 7ma",
-    "frets": [2, 3, 2, 3],
+    "id": "b_m7",
+    "name_es": "Si menor séptima",
+    "notation": "Bm7",
+    "display_title": "Bm7, Si menor séptima",
+    "frets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_6",
+    "name_es": "Si sexta",
+    "notation": "B6",
+    "display_title": "B6, Si sexta",
+    "frets": [
+      2,
+      4,
+      2,
+      4
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "b_m6",
+    "name_es": "Si menor sexta",
+    "notation": "Bm6",
+    "display_title": "Bm6, Si menor sexta",
+    "frets": [
+      2,
+      4,
+      2,
+      3
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "b_maj7",
+    "name_es": "Si mayor con séptima mayor",
+    "notation": "Bmaj7",
+    "display_title": "Bmaj7, Si mayor con séptima mayor",
+    "frets": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_m_maj7",
+    "name_es": "Si menor con séptima mayor",
+    "notation": "Bm(maj7)",
+    "display_title": "Bm(maj7), Si menor con séptima mayor",
+    "frets": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_sus4",
+    "name_es": "Si con cuarta suspendida",
+    "notation": "B(sus4)",
+    "display_title": "B(sus4), Si con cuarta suspendida",
+    "frets": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_7sus4",
+    "name_es": "Si séptima con cuarta suspendida",
+    "notation": "B7(sus4)",
+    "display_title": "B7(sus4), Si séptima con cuarta suspendida",
+    "frets": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_7b5",
+    "name_es": "Si séptima con quinta bemol o disminuida",
+    "notation": "B7(b5)",
+    "display_title": "B7(b5), Si séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      3,
+      4
+    ],
     "barre_fret": null
   },
   {
     "id": "b_m7b5",
-    "name_es": "Si menor 7ma (b5)",
+    "name_es": "Si menor séptima con quinta bemol o disminuida",
     "notation": "Bm7(b5)",
-    "display_title": "Bm7(b5) - Si menor 7ma (b5)",
-    "frets": [2, 3, 3, 3],
+    "display_title": "Bm7(b5), Si menor séptima con quinta bemol o disminuida",
+    "frets": [
+      2,
+      3,
+      3,
+      3
+    ],
     "barre_fret": null
   },
-    {
-    "id": "c_bemol_major",
-    "name_es": "DO bemol",
-    "notation": "Cb",
-    "display_title": "Cb - Do bemol mayor / B - Si Mayor",
-    "frets": [2, 1, 0, 0],
+  {
+    "id": "b_7sharp5",
+    "name_es": "Si séptima con quinta aumentada",
+    "notation": "B7(#5)",
+    "display_title": "B7(#5), Si séptima con quinta aumentada",
+    "frets": [
+      0,
+      1,
+      1,
+      0
+    ],
     "barre_fret": null
-  }, 
-    {
-    "id": "a#_m7b5",
-    "name_es": "La sostenido menor 7ma (b5)",
-    "notation": "a#m7(b5)",
-    "display_title": "A#m7(b5) - La sostenido menor 7ma (b5)",
-    "frets": [1, 2, 2, 2],
+  },
+  {
+    "id": "b_add9",
+    "name_es": "Si mayor con novena agregada",
+    "notation": "B(add9)",
+    "display_title": "B(add9), Si mayor con novena agregada",
+    "frets": [
+      2,
+      1,
+      0,
+      2
+    ],
     "barre_fret": null
-  }, 
-    {
-    "id": "d#_major7",
-    "name_es": "Re sostenido mayor 7ma / Re# 7ma",
-    "notation": "D#7",
-    "display_title": "D#7 - Re sostenido séptima dominante",
-    "frets": [1, 1, 1, 2],
+  },
+  {
+    "id": "b_m_add9",
+    "name_es": "Si menor con novena agregada",
+    "notation": "Bm(add9)",
+    "display_title": "Bm(add9), Si menor con novena agregada",
+    "frets": [
+      2,
+      0,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_sus2",
+    "name_es": "Si con segunda suspendida",
+    "notation": "B(sus2)",
+    "display_title": "B(sus2), Si con segunda suspendida",
+    "frets": [
+      2,
+      4,
+      5,
+      2
+    ],
     "barre_fret": 1
+  },
+  {
+    "id": "b_7sus2",
+    "name_es": "Si séptima con segunda suspendida",
+    "notation": "B7(sus2)",
+    "display_title": "B7(sus2), Si séptima con segunda suspendida",
+    "frets": [
+      2,
+      4,
+      3,
+      2
+    ],
+    "barre_fret": 1
+  },
+  {
+    "id": "b_9",
+    "name_es": "Si novena",
+    "notation": "B9",
+    "display_title": "B9, Si novena",
+    "frets": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_maj7_sus4",
+    "name_es": "Si mayor con séptima mayor y cuarta suspendida",
+    "notation": "Bmaj7(sus4)",
+    "display_title": "Bmaj7(sus4), Si mayor con séptima mayor y cuarta suspendida",
+    "frets": [
+      1,
+      2,
+      0,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_7b9",
+    "name_es": "Si séptima novena bemol",
+    "notation": "B7(b9)",
+    "display_title": "B7(b9), Si séptima novena bemol",
+    "frets": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_maj7_sharp5",
+    "name_es": "Si mayor con séptima mayor y quinta aumentada",
+    "notation": "Bmaj7(#5)",
+    "display_title": "Bmaj7(#5), Si mayor con séptima mayor y quinta aumentada",
+    "frets": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_maj7_add9",
+    "name_es": "Si mayor con séptima mayor y novena agregada",
+    "notation": "Bmaj7(add9)",
+    "display_title": "Bmaj7(add9), Si mayor con séptima mayor y novena agregada",
+    "frets": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_m7_add9",
+    "name_es": "Si menor séptima con novena agregada",
+    "notation": "Bm7(add9)",
+    "display_title": "Bm7(add9), Si menor séptima con novena agregada",
+    "frets": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "barre_fret": null
   }
 ]

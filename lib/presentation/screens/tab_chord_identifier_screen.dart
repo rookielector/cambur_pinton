@@ -11,10 +11,7 @@ import '../widgets/harmonic_roles_list.dart';
 class TabChordIdentifierScreen extends StatelessWidget {
   final ChordIdentifierProvider provider;
 
-  const TabChordIdentifierScreen({
-    super.key,
-    required this.provider,
-  });
+  const TabChordIdentifierScreen({super.key, required this.provider});
 
   @override
   Widget build(BuildContext context) {
@@ -57,17 +54,21 @@ class TabChordIdentifierScreen extends StatelessWidget {
                     height: 38,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      border: Border.all(color: AppColors.primaryAmber, width: 1.2),
+                      border: Border.all(
+                        color: AppColors.primaryAmber,
+                        width: 1.2,
+                      ),
                     ),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/images/app_logo.png',
                         fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) => const Icon(
-                          Icons.music_note,
-                          color: AppColors.primaryAmber,
-                          size: 18,
-                        ),
+                        errorBuilder: (context, error, stackTrace) =>
+                            const Icon(
+                              Icons.music_note,
+                              color: AppColors.primaryAmber,
+                              size: 18,
+                            ),
                       ),
                     ),
                   ),
@@ -98,142 +99,233 @@ class TabChordIdentifierScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-          // Header & Clear Fretboard Action
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Identificador de Pisadas',
-                    style: TextStyle(
-                      color: AppColors.textPrimary,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text(
-                    'Toca los trastes para identificar el acorde',
-                    style: TextStyle(
-                      color: AppColors.textSecondary,
-                      fontSize: 12,
-                    ),
-                  ),
-                ],
-              ),
-              OutlinedButton.icon(
-                onPressed: provider.resetFrets,
-                icon: const Icon(Icons.refresh, size: 16, color: AppColors.primaryAmber),
-                label: const Text('Limpiar'),
-                style: OutlinedButton.styleFrom(
-                  foregroundColor: AppColors.primaryAmber,
-                  side: const BorderSide(color: AppColors.cardBorder),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  visualDensity: VisualDensity.compact,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-
-          // Interactive Fretboard
-          CuatroFretboardWidget(
-            frets: provider.selectedFrets,
-            isInteractive: true,
-            onFretTapped: (stringIndex, fret) {
-              provider.setFret(stringIndex, fret);
-            },
-          ),
-          const SizedBox(height: 16),
-
-          // Identification Result Card
-          GlassCard(
-            borderColor: chord != null ? AppColors.primaryAmber : AppColors.cardBorder,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            // Header & Clear Fretboard Action
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                if (chord != null) ...[
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              chord.displayTitle,
-                              style: const TextStyle(
-                                color: AppColors.textPrimary,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              'Pisada: ${provider.selectedFrets.join(" - ")}',
-                              style: const TextStyle(
-                                color: AppColors.accentCyan,
-                                fontSize: 13,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
-                        ),
+                const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Identificador de Pisadas',
+                      style: TextStyle(
+                        color: AppColors.textPrimary,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
-                      ElevatedButton.icon(
-                        onPressed: provider.playIdentifiedChord,
-                        icon: const Icon(Icons.volume_up, color: Colors.white, size: 18),
-                        label: const Text('Escuchar'),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: AppColors.secondaryCopper,
-                          foregroundColor: Colors.white,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                        ),
+                    ),
+                    Text(
+                      'Toca los trastes para identificar el acorde',
+                      style: TextStyle(
+                        color: AppColors.textSecondary,
+                        fontSize: 12,
                       ),
-                    ],
+                    ),
+                  ],
+                ),
+                OutlinedButton.icon(
+                  onPressed: provider.resetFrets,
+                  icon: const Icon(
+                    Icons.refresh,
+                    size: 16,
+                    color: AppColors.primaryAmber,
                   ),
-                ] else ...[
-                  Row(
-                    children: [
-                      const Icon(Icons.info_outline, color: AppColors.accentGold, size: 24),
-                      const SizedBox(width: 12),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              AppStrings.unknownChord,
-                              style: TextStyle(
-                                color: AppColors.textPrimary,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 15,
-                              ),
-                            ),
-                            Text(
-                              'Pisada actual: ${provider.selectedFrets.join(" - ")}',
-                              style: const TextStyle(
-                                color: AppColors.textSecondary,
-                                fontSize: 12,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
+                  label: const Text('Limpiar'),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: AppColors.primaryAmber,
+                    side: const BorderSide(color: AppColors.cardBorder),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    visualDensity: VisualDensity.compact,
                   ),
-                ],
+                ),
               ],
             ),
-          ),
-          const SizedBox(height: 16),
+            const SizedBox(height: 12),
 
-          // Harmonic Roles List
-          HarmonicRolesList(roles: roles),
+            // Interactive Fretboard
+            CuatroFretboardWidget(
+              frets: provider.selectedFrets,
+              isInteractive: true,
+              onFretTapped: (stringIndex, fret) {
+                provider.setFret(stringIndex, fret);
+              },
+            ),
+            const SizedBox(height: 16),
+
+            if (provider.identifiedChords.length > 1) ...[
+              GlassCard(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        const Icon(
+                          Icons.library_music,
+                          color: AppColors.primaryAmber,
+                          size: 18,
+                        ),
+                        const SizedBox(width: 6),
+                        Text(
+                          'Coincidencias (${provider.identifiedChords.length})',
+                          style: const TextStyle(
+                            color: AppColors.textSecondary,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    ListView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: provider.identifiedChords.length,
+                      itemBuilder: (context, index) {
+                        final match = provider.identifiedChords[index];
+                        final isSelected = match == chord;
+
+                        return ListTile(
+                          contentPadding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                          ),
+                          dense: true,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          tileColor: isSelected
+                              ? AppColors.primaryAmber.withValues(alpha: 0.16)
+                              : null,
+                          leading: Icon(
+                            isSelected
+                                ? Icons.radio_button_checked
+                                : Icons.radio_button_off,
+                            color: isSelected
+                                ? AppColors.primaryAmber
+                                : AppColors.textMuted,
+                            size: 20,
+                          ),
+                          title: Text(
+                            match.displayTitle,
+                            style: const TextStyle(
+                              color: AppColors.textPrimary,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 14,
+                            ),
+                          ),
+                          subtitle: Text(
+                            match.nameEs,
+                            style: const TextStyle(
+                              color: AppColors.textSecondary,
+                              fontSize: 12,
+                            ),
+                          ),
+                          onTap: () => provider.selectIdentifiedChord(match),
+                        );
+                      },
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16),
+            ],
+
+            // Identification Result Card
+            GlassCard(
+              borderColor: chord != null
+                  ? AppColors.primaryAmber
+                  : AppColors.cardBorder,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  if (chord != null) ...[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                chord.displayTitle,
+                                style: const TextStyle(
+                                  color: AppColors.textPrimary,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              Text(
+                                'Pisada: ${provider.selectedFrets.join(" - ")}',
+                                style: const TextStyle(
+                                  color: AppColors.accentCyan,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        ElevatedButton.icon(
+                          onPressed: provider.playIdentifiedChord,
+                          icon: const Icon(
+                            Icons.volume_up,
+                            color: Colors.white,
+                            size: 18,
+                          ),
+                          label: const Text('Escuchar'),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: AppColors.secondaryCopper,
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ] else ...[
+                    Row(
+                      children: [
+                        const Icon(
+                          Icons.info_outline,
+                          color: AppColors.accentGold,
+                          size: 24,
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              const Text(
+                                AppStrings.unknownChord,
+                                style: TextStyle(
+                                  color: AppColors.textPrimary,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 15,
+                                ),
+                              ),
+                              Text(
+                                'Pisada actual: ${provider.selectedFrets.join(" - ")}',
+                                style: const TextStyle(
+                                  color: AppColors.textSecondary,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ],
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            // Harmonic Roles List
+            HarmonicRolesList(roles: roles),
           ],
         ),
       ),

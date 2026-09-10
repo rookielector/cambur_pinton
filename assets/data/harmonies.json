@@ -4,167 +4,41 @@
     "name": "Do Mayor",
     "mode": "major",
     "degrees": [
-      { "degree": "I", "chord_id": "c_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "d_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "e_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "f_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "g_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "a_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "b_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "c_sharp_maj",
-    "name": "Do# Mayor / Reb Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "c_sharp_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "eb_m7b5", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "f_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "f_sharp_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "ab_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "bb_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "c_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "d_maj",
-    "name": "Re Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "d_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "e_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "f_sharp_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "g_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "a_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "b_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "c_sharp_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "eb_maj",
-    "name": "Mi bemol Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "eb_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "f_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "g_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "ab_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "bb_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "c_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "d_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "e_maj",
-    "name": "Mi Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "e_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "f_sharp_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "ab_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "a_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "b_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "c_sharp_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "eb_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "f_maj",
-    "name": "Fa Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "f_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "g_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "a_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "bb_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "c_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "d_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "e_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "f_sharp_maj",
-    "name": "Fa# Mayor / Solb Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "f_sharp_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "ab_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "bb_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "b_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "c_sharp_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "eb_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "f_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "g_maj",
-    "name": "Sol Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "g_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "a_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "b_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "c_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "d_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "e_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "f_sharp_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "ab_maj",
-    "name": "Lab Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "ab_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "bb_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "c_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "c_sharp_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "eb_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "f_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "g_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "a_maj",
-    "name": "La Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "a_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "b_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "c_sharp_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "d_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "e_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "f_sharp_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "ab_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "bb_maj",
-    "name": "Si bemol Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "bb_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "c_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "d_minor", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "eb_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "f_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "g_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "a_dim7", "role": "Sensible" }
-    ]
-  },
-  {
-    "id": "b_maj",
-    "name": "Si Mayor",
-    "mode": "major",
-    "degrees": [
-      { "degree": "I", "chord_id": "b_major", "role": "Tónica" },
-      { "degree": "II", "chord_id": "c_sharp_minor", "role": "Supertónica" },
-      { "degree": "III", "chord_id": "eb_m7b5", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "e_major", "role": "Subdominante" },
-      { "degree": "V", "chord_id": "f_sharp_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "ab_minor", "role": "Relativo Menor" },
-      { "degree": "VII", "chord_id": "bb_dim7", "role": "Sensible" }
+      {
+        "degree": "I",
+        "chord_id": "c_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -172,27 +46,503 @@
     "name": "Do Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "c_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "d_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "eb_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "f_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "g_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "ab_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "bb_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "c_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "c_harmonic_min",
+    "name": "Do Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "c_melodic_min",
+    "name": "Do Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "c_dorian",
+    "name": "Do Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "c_mixolydian",
+    "name": "Do Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "c_sharp_maj",
+    "name": "Do# / Reb Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
     "id": "c_sharp_min",
-    "name": "Do# Menor",
+    "name": "Do# / Reb Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "c_sharp_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "eb_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "e_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "f_sharp_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "ab_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "a_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "b_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "c_sharp_harmonic_min",
+    "name": "Do# / Reb Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "c_sharp_melodic_min",
+    "name": "Do# / Reb Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "c_sharp_dorian",
+    "name": "Do# / Reb Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "e_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "c_sharp_mixolydian",
+    "name": "Do# / Reb Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "c_sharp_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "d_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "f_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "g_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "b_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "d_maj",
+    "name": "Re Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -200,27 +550,503 @@
     "name": "Re Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "d_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "e_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "f_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "g_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "a_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "bb_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "c_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "d_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_major",
+        "role": "Subtónica mayor"
+      }
     ]
   },
   {
-    "id": "eb_min",
-    "name": "Mib Menor / Re# Menor",
+    "id": "d_harmonic_min",
+    "name": "Re Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "a_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "d_melodic_min",
+    "name": "Re Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "d_dorian",
+    "name": "Re Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "d_mixolydian",
+    "name": "Re Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "e_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_maj",
+    "name": "Mib / Re# Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_dim",
+        "role": "Sensible"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_min",
+    "name": "Mib / Re# Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "eb_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "f_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "f_sharp_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "ab_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "bb_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "c_bemol_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "c_sharp_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_harmonic_min",
+    "name": "Mib / Re# Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "b_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_melodic_min",
+    "name": "Mib / Re# Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_dorian",
+    "name": "Mib / Re# Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "f_sharp_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "d_sharp_mixolydian",
+    "name": "Mib / Re# Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "d_sharp_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "g_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "a_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "c_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "e_maj",
+    "name": "Mi Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "e_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -228,13 +1054,251 @@
     "name": "Mi Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "e_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "f_sharp_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "g_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "a_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "b_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "c_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "d_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "e_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "e_harmonic_min",
+    "name": "Mi Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "e_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "e_melodic_min",
+    "name": "Mi Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "e_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "e_dorian",
+    "name": "Mi Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "e_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "e_mixolydian",
+    "name": "Mi Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "e_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "f_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "b_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_maj",
+    "name": "Fa Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -242,27 +1306,503 @@
     "name": "Fa Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "f_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "g_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "ab_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "bb_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "c_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "c_sharp_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "eb_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "f_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_harmonic_min",
+    "name": "Fa Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "c_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "f_melodic_min",
+    "name": "Fa Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "f_dorian",
+    "name": "Fa Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "g_sharp_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_mixolydian",
+    "name": "Fa Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "a_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "d_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_sharp_maj",
+    "name": "Fa# / Solb Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
     "id": "f_sharp_min",
-    "name": "Fa# Menor",
+    "name": "Fa# / Solb Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "f_sharp_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "ab_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "a_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "b_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "c_sharp_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "d_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "e_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_sharp_harmonic_min",
+    "name": "Fa# / Solb Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "f_sharp_melodic_min",
+    "name": "Fa# / Solb Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "f_sharp_dorian",
+    "name": "Fa# / Solb Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "f_sharp_mixolydian",
+    "name": "Fa# / Solb Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "f_sharp_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "g_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "b_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "c_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "e_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_maj",
+    "name": "Sol Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -270,27 +1810,503 @@
     "name": "Sol Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "g_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "a_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "bb_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "c_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "d_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "eb_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "f_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "g_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_harmonic_min",
+    "name": "Sol Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "d_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "g_melodic_min",
+    "name": "Sol Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "g_dorian",
+    "name": "Sol Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "a_sharp_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_mixolydian",
+    "name": "Sol Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_sharp_maj",
+    "name": "Lab / Sol# Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
     "id": "g_sharp_min",
-    "name": "Sol# Menor",
+    "name": "Lab / Sol# Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "ab_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "a#_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "b_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "c_sharp_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "d#_major7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "e_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "f_sharp_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_sharp_harmonic_min",
+    "name": "Lab / Sol# Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "e_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "g_sharp_melodic_min",
+    "name": "Lab / Sol# Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "g_sharp_dorian",
+    "name": "Lab / Sol# Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "b_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "g_sharp_mixolydian",
+    "name": "Lab / Sol# Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "g_sharp_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "a_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "c_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "d_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "f_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "a_maj",
+    "name": "La Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -298,27 +2314,503 @@
     "name": "La Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "a_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "b_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "c_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "d_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "e_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "f_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "g_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "a_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_major",
+        "role": "Subtónica mayor"
+      }
     ]
   },
   {
-    "id": "bb_min",
-    "name": "Si bemol Menor",
+    "id": "a_harmonic_min",
+    "name": "La Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "a_melodic_min",
+    "name": "La Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "a_dorian",
+    "name": "La Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "a_mixolydian",
+    "name": "La Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "b_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "e_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_maj",
+    "name": "Sib / La# Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_dim",
+        "role": "Sensible"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_min",
+    "name": "Sib / La# Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "bb_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "c_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "c_sharp_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "eb_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "f_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "f_sharp_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "ab_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_harmonic_min",
+    "name": "Sib / La# Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "f_sharp_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_melodic_min",
+    "name": "Sib / La# Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_dorian",
+    "name": "Sib / La# Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "c_sharp_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "a_sharp_mixolydian",
+    "name": "Sib / La# Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "a_sharp_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "d_sharp_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "g_sharp_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "b_maj",
+    "name": "Si Mayor",
+    "mode": "major",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "b_major",
+        "role": "Tónica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_minor",
+        "role": "Supertónica"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_minor",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_major",
+        "role": "Subdominante"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_minor",
+        "role": "Relativo Menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_dim",
+        "role": "Sensible"
+      }
     ]
   },
   {
@@ -326,13 +2818,209 @@
     "name": "Si Menor",
     "mode": "minor",
     "degrees": [
-      { "degree": "I", "chord_id": "b_minor", "role": "Tónica menor" },
-      { "degree": "II", "chord_id": "c_sharp_m7b5", "role": "Supertónica (m7b5)" },
-      { "degree": "III", "chord_id": "d_major", "role": "Mediante" },
-      { "degree": "IV", "chord_id": "e_minor", "role": "Subdominante menor" },
-      { "degree": "V", "chord_id": "f_sharp_dom7", "role": "Dominante" },
-      { "degree": "VI", "chord_id": "g_major", "role": "Submediante mayor" },
-      { "degree": "VII", "chord_id": "a_major", "role": "Subtónica mayor" }
+      {
+        "degree": "I",
+        "chord_id": "b_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_major",
+        "role": "Mediante"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "b_harmonic_min",
+    "name": "Si Menor Armónica",
+    "mode": "harmonic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "b_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_m7b5",
+        "role": "Supertónica (m7b5)"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_minor",
+        "role": "Subdominante menor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_major",
+        "role": "Submediante mayor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_dim",
+        "role": "Sensible disminuida"
+      }
+    ]
+  },
+  {
+    "id": "b_melodic_min",
+    "name": "Si Menor Melódica",
+    "mode": "melodic_minor",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "b_minor",
+        "role": "Tónica menor"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_aug",
+        "role": "Mediante aumentada"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_dom7",
+        "role": "Dominante"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      }
+    ]
+  },
+  {
+    "id": "b_dorian",
+    "name": "Si Dórico",
+    "mode": "dorian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "b_minor",
+        "role": "Tónica dórica"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_major",
+        "role": "Mediante mayor"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_m7b5",
+        "role": "Sensible semidisminuida"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_major",
+        "role": "Subtónica mayor"
+      }
+    ]
+  },
+  {
+    "id": "b_mixolydian",
+    "name": "Si Mixolidio",
+    "mode": "mixolydian",
+    "degrees": [
+      {
+        "degree": "I",
+        "chord_id": "b_major",
+        "role": "Tónica mixolidia"
+      },
+      {
+        "degree": "II",
+        "chord_id": "c_sharp_minor",
+        "role": "Supertónica menor"
+      },
+      {
+        "degree": "III",
+        "chord_id": "d_sharp_m7b5",
+        "role": "Mediante semidisminuida"
+      },
+      {
+        "degree": "IV",
+        "chord_id": "e_major",
+        "role": "Subdominante mayor"
+      },
+      {
+        "degree": "V",
+        "chord_id": "f_sharp_minor",
+        "role": "Dominante menor"
+      },
+      {
+        "degree": "VI",
+        "chord_id": "g_sharp_minor",
+        "role": "Submediante menor"
+      },
+      {
+        "degree": "VII",
+        "chord_id": "a_major",
+        "role": "Subtónica mayor"
+      }
     ]
   }
 ]
