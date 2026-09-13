@@ -253,7 +253,7 @@
   },
   {
     "id": "c_sharp_maj",
-    "name": "Do# / Reb Mayor",
+    "name": "Do# mayor / Reb Mayor",
     "mode": "major",
     "degrees": [
       {
@@ -263,12 +263,12 @@
       },
       {
         "degree": "II",
-        "chord_id": "d_sharp_minor",
+        "chord_id": "d_sharp_m7",
         "role": "Supertónica"
       },
       {
         "degree": "III",
-        "chord_id": "f_minor",
+        "chord_id": "e_sharp_minor",
         "role": "Mediante"
       },
       {
@@ -288,7 +288,7 @@
       },
       {
         "degree": "VII",
-        "chord_id": "c_dim",
+        "chord_id": "b_sharp_dom7",
         "role": "Sensible"
       }
     ]
@@ -829,7 +829,7 @@
       },
       {
         "degree": "VI",
-        "chord_id": "b_major",
+        "chord_id": "c_b_major",
         "role": "Submediante mayor"
       },
       {
@@ -1543,12 +1543,12 @@
       },
       {
         "degree": "VI",
-        "chord_id": "d_sharp_minor",
+        "chord_id": "d_sharp_m7",
         "role": "Relativo Menor"
       },
       {
         "degree": "VII",
-        "chord_id": "f_dim",
+        "chord_id": "e_sharp_dim7",
         "role": "Sensible"
       }
     ]
@@ -2541,7 +2541,7 @@
       },
       {
         "degree": "IV",
-        "chord_id": "d_sharp_major",
+        "chord_id": "d_sharp_m7",
         "role": "Subdominante"
       },
       {
@@ -2788,7 +2788,7 @@
       },
       {
         "degree": "III",
-        "chord_id": "d_sharp_minor",
+        "chord_id": "d_sharp_m7",
         "role": "Mediante"
       },
       {

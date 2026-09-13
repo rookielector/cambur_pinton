@@ -382,10 +382,10 @@
     "notation": "C#7 / Db7",
     "display_title": "C#7 / Db7, Do sostenido septima / Reb séptima dominante",
     "frets": [
-      2,
+      4,
       3,
       2,
-      2
+      0
     ],
     "barre_fret": 1
   },
@@ -648,6 +648,19 @@
       4
     ],
     "barre_fret": 2
+  },
+  {
+    "id": "c_b_major",
+    "name_es": "Do bemol mayor",
+    "notation": "Cb",
+    "display_title": "Cb, Do bemol mayor",
+    "frets": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "barre_fret": null
   },
   {
     "id": "d_major",
@@ -1624,6 +1637,32 @@
     ],
     "barre_fret": null
   },
+    {
+    "id": "e_sharp_minor",
+    "name_es": "Mi sostenido menor",
+    "notation": "E#m",
+    "display_title": "E#m, Mi sostenido menor",
+    "frets": [
+      3,
+      3,
+      2,
+      1
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "e_sharp_dim7",
+    "name_es": "Mi sostenido disminuido séptima",
+    "notation": "E#º7 / Fº7",
+    "display_title": "E#º7 / Fº7, Mi sostenido disminuido séptima / Fa disminuido séptima",
+    "frets": [
+      2,
+      3,
+      2,
+      3
+    ],
+    "barre_fret": null
+  },
   {
     "id": "f_major",
     "name_es": "Fa mayor",
@@ -2010,7 +2049,7 @@
       1,
       2,
       0,
-      3
+      2
     ],
     "barre_fret": null
   },
@@ -2335,7 +2374,7 @@
       2,
       3,
       1,
-      4
+      3
     ],
     "barre_fret": null
   },
@@ -3896,6 +3935,19 @@
       0,
       0,
       2
+    ],
+    "barre_fret": null
+  },
+  {
+    "id": "b_sharp_dom7",
+    "name_es": "Si sostenido disminuido",
+    "notation": "B#",
+    "display_title": "B#7, Si sostenido disminuido",
+    "frets": [
+      0,
+      1,
+      0,
+      1
     ],
     "barre_fret": null
   }
