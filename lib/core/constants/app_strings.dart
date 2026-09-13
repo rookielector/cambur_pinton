@@ -44,7 +44,7 @@ class AppStrings {
       'Reconocimiento Armónico & Tablaturas';
   static const String specialThanksName = 'Alis Cruces';
   static const String specialThanksDesc =
-      'Maestro Cuatrista y Autor de los PDFs de Tonalidades Mayores Aplicadas al Cuatro y Tonalidades Menores Aplicadas al Cuatro';
+      'Maestro Cuatrista y Autor de los PDFs de Tonalidades Mayores Aplicadas al Cuatro y Tonalidades Menores Aplicadas al Cuatro y Serie de Acordes Para el Cuatro Venezolano';
 
 
   static const List<String> romanDegrees = [
